@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,
+ol{
+    list-style: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li{
+    margin: 0 !important;
+}
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    scroll-behavior: smooth;
+}
+button:focus{
+    outline: none;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px transparent !important;
+}
+p{
+    color: #444;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+}
+
+.heading h4{
+    text-align: center;
+    color: #fff;
+    background: #ffa913;
+        width: 70%;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+}
+.sub-header h3{
+    padding: 20px 0;
+    color: #222;
+    font-size: 34px !important;
+    font-weight: 300 !important;
+    line-height: 40px !important;
+}
+.section{
+    padding-top: 80px;
+}
+/*================================================
+               COMMON CSS PART END
+=================================================*/
+
+/*
+/* ====================================
+        Places part Start
+=====================================*/
+.places h4 {
+    text-transform: uppercase;
+}
+.places .button-group{
+    padding-top: 20px;
+}
+.places .nav-pills{
+    padding: 10px 0px;
+    background: #fff;
+    -webkit-box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
+    box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
+}
+.places .nav-menu{
+    color: #999;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 0px 15px;
+    border-left: 1px solid #999;
+}
+.places li:first-child .nav-menu{
+    border-left: none;
+}
+.places .nav-menu:hover{
+    color: #2c6bff;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.places .mx-0{
+      margin-top: 50px;
+}
+.places .nav-pills{
+    text-align: center;
+    display: inline-flex;
+}
+.work-image{
+    position: relative;
+}
+.work-image img {
+    height: 400px;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    text-align: center;
+    bottom: 100%;
+    left: 0%;
+    right: 0;
+    background: rgba(35, 111, 151, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: all .6s ease;
+    cursor: pointer;
+    
+}
+ .overlay_shape img {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 46%;
+}
+.overlay_shape .over-btn {
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 300;
+    padding: 2px 14px;
+    border-radius: 35px;
+    text-transform: capitalize;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #236f97;
+}
+.overlay_shape .atspar-b-btn button:hover{
+    background: #fff;
+    border: 1px solid #fff;
+}
+.overlay_shape .atspar-b-btn button:hover a{
+    color: #236f97
+}
+.overlay_shape h2{
+    color: #fff;
+    bottom: 36px;
+    position: absolute;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+    cursor: pointer;
+}
+.overlay_shape .view-all{
+    color: #fff;
+    bottom: 6px;
+    position: absolute;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+}
+.overlay_shape .view-all i{
+    position: absolute;
+     left: 75%;
+    top: 55%; 
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    text-align: center;
+}
+
+.work-image:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.place-col{
+    padding: 0 1px;
+}
+.heading h4 {
+    width: 99%;
+}
+.places .travel-btn{
+    margin-top: 70px;
+}
+.places .travel-btn:after {
+    position: absolute;
+    content: '';
+    height: 50px;
+    width: 210px;
+    border-radius: 5px;
+    top: -10px;
+    z-index: -1;
+    transform: translateX(-47%);
+    left: 50%;
+}
+
+/* ====================================
+        Places part End
+=====================================*/
