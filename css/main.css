@@ -31,7 +31,7 @@ h6,
 p,
 ul,
 li{
-    margin: 0 !important;
+    margin: 0;
 }
 
 html,
@@ -76,7 +76,90 @@ p{
                COMMON CSS PART END
 =================================================*/
 
-/*
+/*================================================
+        Safari part start
+=================================================*/
+.safari {
+    margin: 20px 0 !important;
+}
+.safari h2  {
+    color: #2C7EFF;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 0 !important;
+   
+}
+.safari h2 span {
+    color: #FFA913 ;
+    font-size: 40px ;
+}
+.safari .background {
+    background-image: url(../images/safari-background.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+
+}
+.safari .link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0;
+   background-color:transparent;
+}
+.safari .link a  {
+    font-size: 40px;
+    color: #FFA913 ;
+}
+
+.safari .side-img {
+    background: transparent;
+    margin-top: -50px;
+    z-index: 111;
+    border: 20px solid #fff;
+
+    overflow: hidden;
+}
+.safari .side-img img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+       margin: 0;
+       -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+
+}
+.safari .side-img img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+.safari .side-text h3 {
+    margin:  20px 0 !important;
+}  
+
+.safari .side-text button {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #2C7EFF;
+    color: #fff;
+    cursor: pointer;
+}
+.safari .side-text button:hover {
+    color: #2C7EFF;
+    background-color: transparent;
+    border: 1px solid #2C7EFF;
+      
+}
+/*================================================
+        Safari part end
+=================================================*/
+
 /* ====================================
         Places part Start
 =====================================*/
@@ -121,21 +204,29 @@ p{
 }
 .work-image{
     position: relative;
+    overflow: hidden;
 }
 .work-image img {
     height: 400px;
     width: 100%;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.work-image img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
 }
 .overlay {
     position: absolute;
     text-align: center;
-    bottom: 100%;
     left: 0;
     right: 0;
     background: rgba(35, 111, 151, 0.8);
     overflow: hidden;
     width: 100%;
-    height: 0;
+    height: 20%;
+    bottom: 0%;
     transition: all .6s ease;
     cursor: pointer;
     
@@ -192,7 +283,7 @@ p{
 
 
 
-.work-image:hover .overlay {
+ .overlay:hover {
     bottom: 0;
     height: 100%;
 }
@@ -220,3 +311,89 @@ p{
 /* ====================================
         Places part End
 =====================================*/
+/* ====================================
+        testimonial part start
+=====================================*/
+
+.testimonial {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+
+.testimonial .slider-for {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+/* .testimonial .slider-for > div {
+    position: relative;
+    width: 700px;
+    height: 400;
+
+} */
+.testimonial .slider-for img {
+
+   height: 400px;
+   width: inherit;
+}
+.testimonial .slider-for .img-overlay {
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(14, 6, 6, 0.3);
+}
+.testimonial .slider-for .img-overlay p {
+    color: #fff;
+    font-size: larger !important;
+    padding: 20px;
+}
+
+.testimonial .slider-for .img-overlay .ratting i {
+    color: #FFB656;
+  }
+  .testimonial .slider-for .img-overlay i:last-child {
+    color: #E0E1DE;
+  }
+.testimonial .slider-for .img-overlay span {
+    color: #fff;
+    font-size: larger !important;
+    padding: 20px;
+    font-weight: bolder;
+}
+.testimonial .slider h2 {
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color:  #fff;
+    padding-bottom: 20px !important;
+    color:  #2C7EFF;
+
+} 
+.testimonial .slider p {
+ padding-bottom: 40px;
+   line-height: 3;
+}
+
+
+.testimonial .slider-nav > div  {
+    width: auto;
+}
+.testimonial .slider-nav > div img {
+    height: 60px;
+    width: 90%;
+
+}
+.slick-next , 
+.slick-prev , 
+.slick-prev:hover ,
+.slick-next:hover ,
+.slick-prev:focus ,
+.slick-next:focus {
+    right: 15px;
+    z-index: 111;
+    bottom: 0;
+}
+.slick-prev {
+   left: 15px;
+}

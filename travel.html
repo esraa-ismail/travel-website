@@ -1,658 +1,817 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--bootstrap-->
-    <link rel ="stylesheet" href="css/bootstrap.min.css">
-    <link rel ="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!--font awsome-->
+    <link rel="stylesheet" href="css/all.min.css">
 
+    <!--slick (for testimonial)-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
 
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
 
-    </head>
-    <body>
-        <section id="places" class="places section">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                   <div class="col-md-12">
-                       <div class="row justify-content-center text-center">
-                <div class="col-lg-2 col-md-4">
-                        <div class="heading">
-                            <h4>best destination</h4>                        
-                        </div>
-                    </div>
-                </div> 
-                <div class="row justify-content-center text-center">
-                <div class="col-md-6">
-                        <div class="sub-header">
-                            <h3>The places where most of the visitor come </h3>                     
-                        </div>
-                    </div>
-                </div>         
-                   </div>
-                   
-                </div>
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-12 m-auto col-12 text-center button-group">
-                        <ul class="nav nav-pills" id="pills-tab1" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-menu first-shape active" id="pills-all-tab1" data-toggle="pill" href="#pills-all1" role="tab" aria-controls="pills-all1" aria-selected="true">Asia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-menu" id="pills-logo-tab1" data-toggle="pill" href="#pills-logo1" role="tab" aria-controls="pills-all1" aria-selected="true">Africa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-menu" id="pills-flyer-tab1" data-toggle="pill" href="#pills-flyer1" role="tab" aria-selected="false">North America</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-menu" id="pills-web-tab1" data-toggle="pill" href="#pills-web1" role="tab" aria-selected="false">South America</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-menu" id="pills-tem-tab1" data-toggle="pill" href="#pills-tem1" role="tab" aria-selected="false">Antarctica</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-menu last-shape" id="pills-eur-tab1" data-toggle="pill" href="#pills-eur1" role="tab" aria-selected="false">Europe</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-menu last-shape" id="pills-aus-tab1" data-toggle="pill" href="#pills-aus1" role="tab" aria-selected="false">Australia</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-    
-                <div class="row mx-0">
-                    <div class="col-lg-12 px-0">
-                        <div class="tab-content" id="pills-tabContent1">
-                            <div class="tab-pane fade show active" id="pills-all1" role="tabpanel" aria-labelledby="pills-all-tab1">
-                                <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/asia1.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">
-                                                            <span class="price">$300/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/asia2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$500/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/asia3.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$350/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/asia4.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$700/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
+</head>
 
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-    
-                            </div>
-                            <div class="tab-pane fade" id="pills-logo1" role="tabpanel" aria-labelledby="pills-logo-tab1">
-                                <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/africia1.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape"> 
-                                                        <span class="price">$400/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>                                                  
-                                                       
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/africia2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$300/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/africia3.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$500/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/popular-destination-8.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$300/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-flyer1" role="tabpanel" aria-labelledby="pills-flyer-tab1">
-                                <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/nourth1.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$800/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/nourth2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$750/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/popular-destination-11.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$400/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/popular-destination-12.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$300/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-web1" role="tabpanel" aria-labelledby="pills-web-tab1">
-                                <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/soutAmirca1.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$800/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/soutAmirca2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$300/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/soutAmirca3.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$450/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/soutAmirca4.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$200/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-tem1" role="tabpanel" aria-labelledby="pills-tem-tab1">
-                               <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/popular-destination-4.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$300/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/antarctica3.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$400/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/antarctica2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$850/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/antarctica1.jfif" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$300/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-eur1" role="tabpanel" aria-labelledby="pills-eur-tab1">
-                                <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/europe3.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$800/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/europe2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$700/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/europe4.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$2000/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/europe1.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$1000/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-aus1" role="tabpanel" aria-labelledby="pills-aus-tab1">
-                                <div class="row work-cont-1">
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/australia1.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$900/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/australia2.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$550/person</span> <br>
-                                                            <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                            <ul>
-                                                            <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                            <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                            <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                            </ul>
-                                                            <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/australia3.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$600/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 place-col">
-                                        <div class="work-image">
-                                            <img src="images/australia4.jpg" class="img-fluid person" alt="destination">
-                                            
-                                                <div class="overlay">
-                                                    <div class="overlay_shape">                                                   
-                                                        <span class="price">$400/person</span> <br>
-                                                        <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
-                                                        <ul>
-                                                        <li><i class="fas fa-umbrella-beach"></i> 2</li>
-                                                        <li><i class="fas fa-swimming-pool"></i>  3</li>
-                                                        <li><i class="fas fa-mountain"></i> Near Mountain</li>
-                                                        </ul>
-                                                        <button>Book Now</button>
-                                                    </div>
-                                                </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
+<body>
+     <section class='safari'>
+        <div class='container'>
+            <h2>Take your Adventure <span>with us</span></h2>
+        </div>
+        <div class='background'>
+            <div  class='link'>
+                <a href="https://www.youtube.com/embed/TTveBiyeTIw"><i class="fas fa-play"></i></a>
             </div>
-        </section>
+        </div>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-6 side-img'>
+                    <img src="./images/safari-side.img">
+                </div>
+                <div class='col-md-6 side-text'>
+                    <h3>Make Your Tour Memorable and Safe With Us</h3>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+                        there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="places section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-12">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-2 col-md-4">
+                            <div class="heading">
+                                <h4>best destination</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center text-center">
+                        <div class="col-md-6">
+                            <div class="sub-header">
+                                <h3>The places where most of the visitor come </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12 m-auto col-12 text-center button-group">
+                    <ul class="nav nav-pills" id="pills-tab1" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-menu first-shape active" id="pills-all-tab1" data-toggle="pill"
+                                href="#pills-all1" role="tab" aria-controls="pills-all1" aria-selected="true">Asia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-menu" id="pills-logo-tab1" data-toggle="pill" href="#pills-logo1" role="tab"
+                                aria-controls="pills-all1" aria-selected="true">Africa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-menu" id="pills-flyer-tab1" data-toggle="pill" href="#pills-flyer1" role="tab"
+                                aria-selected="false">North America</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-menu" id="pills-web-tab1" data-toggle="pill" href="#pills-web1" role="tab"
+                                aria-selected="false">South America</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-menu" id="pills-tem-tab1" data-toggle="pill" href="#pills-tem1" role="tab"
+                                aria-selected="false">Antarctica</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-menu last-shape" id="pills-eur-tab1" data-toggle="pill" href="#pills-eur1"
+                                role="tab" aria-selected="false">Europe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-menu last-shape" id="pills-aus-tab1" data-toggle="pill" href="#pills-aus1"
+                                role="tab" aria-selected="false">Australia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row mx-0">
+                <div class="col-lg-12 px-0">
+                    <div class="tab-content" id="pills-tabContent1">
+                        <div class="tab-pane fade show active" id="pills-all1" role="tabpanel"
+                            aria-labelledby="pills-all-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/asia1.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/asia2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$500/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/asia3.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$350/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/asia4.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$700/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-logo1" role="tabpanel" aria-labelledby="pills-logo-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/africia1.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$400/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/africia2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/africia3.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$500/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/popular-destination-8.jpg" class="img-fluid person"
+                                            alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-flyer1" role="tabpanel" aria-labelledby="pills-flyer-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/nourth1.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$800/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/nourth2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$750/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/popular-destination-11.jpg" class="img-fluid person"
+                                            alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$400/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/popular-destination-12.jpg" class="img-fluid person"
+                                            alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-web1" role="tabpanel" aria-labelledby="pills-web-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/soutAmirca1.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$800/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/soutAmirca2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/soutAmirca3.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$450/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/soutAmirca4.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$200/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-tem1" role="tabpanel" aria-labelledby="pills-tem-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/popular-destination-4.jpg" class="img-fluid person"
+                                            alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/antarctica3.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$400/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/antarctica2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$850/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/antarctica1.jfif" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$300/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-eur1" role="tabpanel" aria-labelledby="pills-eur-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/europe3.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$800/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/europe2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$700/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/europe4.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$2000/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/europe1.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$1000/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-aus1" role="tabpanel" aria-labelledby="pills-aus-tab1">
+                            <div class="row work-cont-1">
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/australia1.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$900/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/australia2.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$550/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/australia3.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$600/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 place-col">
+                                    <div class="work-image">
+                                        <img src="images/australia4.jpg" class="img-fluid person" alt="destination">
+
+                                        <div class="overlay">
+                                            <div class="overlay_shape">
+                                                <span class="price">$400/person</span> <br>
+                                                <span class="days"><i class="fas fa-table"></i> 8 Days Tour </span>
+                                                <ul>
+                                                    <li><i class="fas fa-umbrella-beach"></i> 2</li>
+                                                    <li><i class="fas fa-swimming-pool"></i> 3</li>
+                                                    <li><i class="fas fa-mountain"></i> Near Mountain</li>
+                                                </ul>
+                                                <button>Book Now</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class='container'>
+            <div class='row'>
+                <div class="slider-for col-md-7">
+                    <div>
+                         <img src='images/person1.jpg'>
+                        <div class='img-overlay'>
+                            <p>“We are still awe-struck by all the amazing scenes we were <br>
+                                shown and we are still in love with our tour manager.
+                                She was an absolute delight!.”
+
+                            </p>
+                            <div class="ratting ">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span> Ms. jan Corona</span>
+                        </div>
+
+                    </div>
+                    <div> <img src='images/person2.jpg'>
+                        <div class='img-overlay'>
+                            <p>“We are still awe-struck by all the amazing scenes we were <br>
+                                shown and we are still in love with our tour manager.
+                                She was an absolute delight!.”
+
+                            </p>
+                            <div class="ratting ">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span> Ms. Heidi Corona</span>
+                        </div>
+                    </div>
+                    <div> 
+                        <img src='images/person3.jpg'>
+                        <div class='img-overlay'>
+                            <p>“We are still awe-struck by all the amazing scenes we were <br>
+                                shown and we are still in love with our tour manager.
+                                She was an absolute delight!.”
+
+                            </p>
+                            <div class="ratting ">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span> Ms. anjial</span>
+                        </div>
+                    </div>
+                    <div> <img src='images/person4.jpg'>
+                        <div class='img-overlay'>
+                            <p>“We are still awe-struck by all the amazing scenes we were <br>
+                                shown and we are still in love with our tour manager.
+                                She was an absolute delight!.”
+
+                            </p>
+                            <div class="ratting ">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span> Ms. golian grgous</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src='images/person5.jpg'>
+                        <div class='img-overlay'>
+                            <p>“We are still awe-struck by all the amazing scenes we were <br>
+                                shown and we are still in love with our tour manager.
+                                She was an absolute delight!.”
+
+                            </p>
+                            <div class="ratting ">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span> Mr. Mohamed Sabry</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 slider">
+                    <div class='row'>
+                        <h2 class='col-md-12'>Our Travellers Say It Best </h2>
+
+                        <p class="col-md-12">We can talk about ourselves all we want, but we know that hearing what our
+                            guests have to
+                            say about us is the best way for you to get to know Collette. We have many delighted
+                            travellers who find lots of ways to share the love.</p>
+                        <div class="slider-nav col-md-12">
+                            <div><img src='images/person1.jpg'></div>
+                            <div><img src='images/person2.jpg'></div>
+                            <div><img src='images/person3.jpg'></div>
+                            <div><img src='images/person4.jpg'></div>
+                            <div><img src='images/person5.jpg'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-        <script src="js/jquery-3.5.1.min.js"></script>
-            <!--bootstrap-->
-            <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!--bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--slick (for testimonial)-->
+    <script src="js/slick.min.js"></script>
 
+    <script src="js/main-js.js"></script>
+</body>
 
-        <script src="js/main-js.js"></script>
-    </body>
 </html>
