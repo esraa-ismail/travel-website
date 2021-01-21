@@ -203,6 +203,21 @@ p{
     -ms-transition: all ease 0.5s;
     -o-transition: all ease 0.5s;
     transition: all ease 0.5s;
+   
+}
+
+.places .nav-item {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.places .nav-item:hover {
+    -webkit-transform:scale(1.2) ;
+    transform: scale(1.1);
+    
 }
 .places .mx-0{
       margin-top: 50px;
@@ -236,7 +251,7 @@ p{
     text-align: center;
     left: 0;
     right: 0;
-    background: linear-gradient(127deg , rgba(44, 126, 255, 0.8) , rgba(0,0,0,.1)) ;
+    background:   rgba(0,0,0,0.3) ;
     overflow: hidden;
     width: 100%;
     height: 20%;
@@ -272,7 +287,7 @@ p{
 }
 .places .overlay_shape button {
     background-color: #fff;
-    color: teal;
+    color: #000;
     border: none;
     padding: 3px 6px;
     display: block;
@@ -313,30 +328,56 @@ p{
 /*  */
 @media (max-width: 981px) {
    
-      
+    .places  li:nth-child(6) .nav-menu {
+        border-left: none;
+    }
+   
     .places .col-md-5.place-col .overlay {
         height: 15%;
     }
    .places .overlay_shape button  {
         margin-left: 35%;
     }
+    .places .col-md-6 button {
+        margin-left: 25%;
+    }
 }
 @media (max-width: 767px) {
+    .places  li:nth-child(6) .nav-menu {
+        border-left: 1px solid #999;
+    }
+    .places  li:nth-child(5) .nav-menu {
+        border-left: none;
+    }
    .places .overlay_shape {
         margin-top: 0;
     }
    .places .overlay {
-        height: 40%;
+        height: 30%;
     }
    
    .places .overlay:hover {
-        height: 40%;
+        height: 30%;
     }
     .places .col-md-5.place-col .overlay {
-        height: 30%;
+        height: 15%;
+    }
+    .places .col-md-5.place-col .overlay:hover {
+        height: 15%;
+    }
+    .places .overlay_shape button  {
+        margin-left: 40%;
+    }
+    #pills-all1 > div > div.col-md-7.place-col > div > div:nth-child(1) > div {
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 576px) {
+    .places  li:nth-child(4) .nav-menu {
+        border-left: 1px solid #999 !important;
+
+    }
+   
   .places  .overlay_shape {
         margin-top: 0px;
     }
@@ -381,9 +422,10 @@ p{
 }
 .testimonial .slider-for .img-overlay {
     position:absolute;
-    top:0;
+    bottom:0;
     left: 0;
-    background-color: rgba(14, 6, 6, 0.3);
+    padding: 10px;
+    background:   rgba(0,0,0,0.3) ;
 }
 .testimonial .slider-for .img-overlay p {
     color: #fff;
