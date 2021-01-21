@@ -131,6 +131,7 @@ p{
        margin: 0;
        -webkit-transform: scale(1.1);
        transform: scale(1.1);
+       cursor: pointer;
 
 }
 .safari .side-img img:hover {
@@ -149,12 +150,22 @@ p{
     background-color: #2C7EFF;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
 }
 .safari .side-text button:hover {
     color: #2C7EFF;
     background-color: transparent;
     border: 1px solid #2C7EFF;
       
+}
+.ytp-cued-thumbnail-overlay-image {
+    background-image: url(../images/safari-background.jpg) !important;
+    width: 50% !important;
+    height: 50% !important;
+    position: absolute !important;
+    top: 25% !important;
+    left: 25% !important;
 }
 /*================================================
         Safari part end
@@ -166,9 +177,7 @@ p{
 .places h4 {
     text-transform: uppercase;
 }
-.places .button-group{
-    padding-top: 20px;
-}
+
 .places .nav-pills{
     padding: 10px 0px;
     background: #fff;
@@ -197,16 +206,21 @@ p{
 }
 .places .mx-0{
       margin-top: 50px;
+      margin-bottom: 20px;
 }
 .places .nav-pills{
     text-align: center;
     display: inline-flex;
 }
-.work-image{
+.places .place-col {
+    margin-bottom: 20px;
+
+}
+.places .work-image{
     position: relative;
     overflow: hidden;
 }
-.work-image img {
+.places .work-image img {
     height: 400px;
     width: 100%;
     transition: all 2s ease-in-out;
@@ -217,12 +231,12 @@ p{
     transform: scale(1.3);
 
 }
-.overlay {
+.places .overlay {
     position: absolute;
     text-align: center;
     left: 0;
     right: 0;
-    background: rgba(35, 111, 151, 0.8);
+    background: linear-gradient(127deg , rgba(44, 126, 255, 0.8) , rgba(0,0,0,.1)) ;
     overflow: hidden;
     width: 100%;
     height: 20%;
@@ -232,50 +246,43 @@ p{
     
 }
  
- .overlay_shape  {
-     position: absolute;
-     top:50%;
-     left: 50%;
-     background-color: transparent;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    text-align: center;
-    line-height: 2;
+,.places .overlay_shape  {
+
+    margin-top: 10px;
+    background-color: transparent;
     line-height: 35px;
-    font-weight: 300;
-    padding: 2px 14px;
-    border-radius: 35px;
-    text-transform: capitalize;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    -ms-transition: all ease 0.5s;
-    -o-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    color: #236f97;
+    text-align: center;
+
+
 } 
-.overlay_shape span {
+.places .overlay_shape span {
     color: #FFf;
 }
 
-.overlay_shape ul {
+.places .overlay_shape ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.overlay_shape ul li {
+.places .overlay_shape ul li {
     display: inline-block;
     color: #fff;
     padding: 5px;
 
 }
-.overlay_shape button {
+.places .overlay_shape button {
     background-color: #fff;
     color: teal;
     border: none;
     padding: 3px 6px;
+    display: block;
+    margin-left: 40%;
+    margin-right: 0;
+    transition: all 0.3s ease-in-out;
+
    
 }
-.overlay_shape  button:hover{
+.places .overlay_shape  button:hover{
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
@@ -283,29 +290,69 @@ p{
 
 
 
- .overlay:hover {
+ .places .overlay:hover  {
     bottom: 0;
-    height: 100%;
+    height: 40%;
 }
-.place-col{
-    padding: 0 1px;
+.places .col-md-12.place-col .overlay {
+    height: 26%;
+} 
+.places .col-md-12.place-col .overlay:hover {
+    height: 26%;
+} 
+.places .col-md-5.place-col .overlay {
+    height: 15%;
 }
-.heading h4 {
-    width: 99%;
+.places .col-md-5.place-col .overlay:hover {
+    height: 15%;
 }
-.places .travel-btn{
-    margin-top: 70px;
+.places .col-md-5.place-col img {
+    height: 820px;
 }
-.places .travel-btn:after {
-    position: absolute;
-    content: '';
-    height: 50px;
-    width: 210px;
-    border-radius: 5px;
-    top: -10px;
-    z-index: -1;
-    transform: translateX(-47%);
-    left: 50%;
+
+/*  */
+@media (max-width: 981px) {
+   
+      
+    .places .col-md-5.place-col .overlay {
+        height: 15%;
+    }
+   .places .overlay_shape button  {
+        margin-left: 35%;
+    }
+}
+@media (max-width: 767px) {
+   .places .overlay_shape {
+        margin-top: 0;
+    }
+   .places .overlay {
+        height: 40%;
+    }
+   
+   .places .overlay:hover {
+        height: 40%;
+    }
+    .places .col-md-5.place-col .overlay {
+        height: 30%;
+    }
+}
+@media (max-width: 576px) {
+  .places  .overlay_shape {
+        margin-top: 0px;
+    }
+ .places   .overlay {
+        height: 33%;
+    }
+   
+  .places  .overlay:hover {
+        height: 33%;
+    }
+    .places .col-md-5.place-col .overlay {
+        height: 20%;
+    }
+    .overlay_shape button {
+        margin-left: 37%;
+    }
 }
 
 /* ====================================
@@ -326,12 +373,7 @@ p{
     margin-bottom: 10px;
 
 }
-/* .testimonial .slider-for > div {
-    position: relative;
-    width: 700px;
-    height: 400;
 
-} */
 .testimonial .slider-for img {
 
    height: 400px;
@@ -362,26 +404,33 @@ p{
     font-weight: bolder;
 }
 .testimonial .slider h2 {
-    padding: 10px;
     text-transform: capitalize;
     font-weight: bold;
     background-color:  #fff;
-    padding-bottom: 20px !important;
+    padding: 20px 0 !important;
     color:  #2C7EFF;
 
 } 
 .testimonial .slider p {
- padding-bottom: 40px;
-   line-height: 3;
+ padding: 20px 0;
+  line-height: 3;
 }
 
 
-.testimonial .slider-nav > div  {
+ .testimonial .slider-nav > div  {
     width: auto;
+    margin: 0;
+
+}
+.testimonial .slider-nav {
+    margin: 0;
+    padding: 0;
 }
 .testimonial .slider-nav > div img {
     height: 60px;
-    width: 90%;
+    width: inherit;
+    margin: 0;
+
 
 }
 .slick-next , 
@@ -390,10 +439,7 @@ p{
 .slick-next:hover ,
 .slick-prev:focus ,
 .slick-next:focus {
-    right: 15px;
     z-index: 111;
-    bottom: 0;
-}
-.slick-prev {
-   left: 15px;
+    top: 40%;
+    
 }
