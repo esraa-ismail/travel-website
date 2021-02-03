@@ -2,7 +2,7 @@
 // navgation
 
  var scrolltoOffset = $('#header').outerHeight() - 1;
- $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
+ $(document).on('click', '.nav-menu1 a, .mobile-nav a, .scrollto', function(e) {
    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
      var target = $(this.hash);
      if (target.length) {
@@ -18,8 +18,8 @@
          scrollTop: scrollto
        }, 1500, 'easeInOutExpo');
 
-       if ($(this).parents('.nav-menu, .mobile-nav').length) {
-         $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+       if ($(this).parents('.nav-menu1, .mobile-nav').length) {
+         $('.nav-menu1 .active, .mobile-nav .active').removeClass('active');
          $(this).closest('li').addClass('active');
        }
 
@@ -47,8 +47,8 @@
  });
 
  // Mobile Navigation
- if ($('.nav-menu').length) {
-  var $mobile_nav = $('.nav-menu').clone().prop({
+ if ($('.nav-menu1').length) {
+  var $mobile_nav = $('.nav-menu1').clone().prop({
     class: 'mobile-nav d-lg-none'
   });
   $('body').append($mobile_nav);
@@ -83,7 +83,7 @@
 
 // Navigation active state on scroll
 var nav_sections = $('section');
-var main_nav = $('.nav-menu, #mobile-nav');
+var main_nav = $('.nav-menu1, #mobile-nav');
 
 $(window).on('scroll', function() {
   var cur_pos = $(this).scrollTop() + 200;
@@ -99,7 +99,7 @@ $(window).on('scroll', function() {
       main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
     }
     if (cur_pos < 300) {
-      $(".nav-menu ul:first li:first").addClass('active');
+      $(".nav-menu1 ul:first li:first").addClass('active');
     }
   });
 });

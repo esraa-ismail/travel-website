@@ -89,21 +89,21 @@ button {
 
 /* Desktop Navigation */
 
-.nav-menu,
-.nav-menu * {
+.nav-menu1,
+.nav-menu1 * {
     list-style: none;
 }
 
-.nav-menu > ul {
+.nav-menu1 > ul {
     margin-top: 30px;
 }
-.nav-menu > ul > li {
+.nav-menu1 > ul > li {
     position: relative;
     white-space: nowrap;
     float: left;
 }
 
-.nav-menu a {
+.nav-menu1 a {
     display: block;
     position: relative;
     color: #4D4E4F;
@@ -114,14 +114,14 @@ button {
     margin: 5px;
 }
 
-.nav-menu a:hover,
-.nav-menu .active > a,
-.nav-menu li:hover > a {
+.nav-menu1 a:hover,
+.nav-menu1 .active > a,
+.nav-menu1 li:hover > a {
     background: #AC1F32;
     text-decoration: none;
 }
 
-.nav-menu .drop-down ul {
+.nav-menu1 .drop-down ul {
     display: block;
     position: absolute;
     left: 0;
@@ -137,18 +137,18 @@ button {
     margin-top: 5px;
 }
 
-.nav-menu .drop-down:hover>ul {
+.nav-menu1 .drop-down:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
 }
 
-.nav-menu .drop-down li {
+.nav-menu1 .drop-down li {
     min-width: 180px;
     position: relative;
 }
 
-.nav-menu .drop-down ul a {
+.nav-menu1 .drop-down ul a {
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 500;
@@ -156,35 +156,35 @@ button {
     color: #2a2c39;
 }
 
-.nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active>a,
-.nav-menu .drop-down ul li:hover>a {
+.nav-menu1 .drop-down ul a:hover,
+.nav-menu1 .drop-down ul .active>a,
+.nav-menu1 .drop-down ul li:hover>a {
     color: #AC1F32;
     background: none;
 }
 
-.nav-menu .drop-down>a:after {
+.nav-menu1 .drop-down>a:after {
     content: "\ea99";
     font-family: IcoFont;
     padding-left: 5px;
 }
 
-.nav-menu .drop-down .drop-down ul {
+.nav-menu1 .drop-down .drop-down ul {
     top: 0;
     left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover>ul {
+.nav-menu1 .drop-down .drop-down:hover>ul {
     opacity: 1;
     top: 0;
     left: 100%;
 }
 
-.nav-menu .drop-down .drop-down>a {
+.nav-menu1 .drop-down .drop-down>a {
     padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down>a:after {
+.nav-menu1 .drop-down .drop-down>a:after {
     content: "\eaa0";
     position: absolute;
     right: 15px;
@@ -209,7 +209,7 @@ button {
 
 .mobile-nav-toggle i {
     margin-right: 64px;
-    color: #fff;
+    color: #3F464A;
 }
 
 .mobile-nav {
@@ -1436,7 +1436,7 @@ border-top: 1px #AC1F32 solid ;
     -webkit-box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
     box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
 }
-.alexandria .nav-menu{
+.alexandria .nav-menu1{
     color: #999;
     font-size: 18px;
     line-height: 24px;
@@ -1445,10 +1445,10 @@ border-top: 1px #AC1F32 solid ;
     padding: 0px 15px;
     border-left: 1px solid #999;
 }
-.alexandria li:first-child .nav-menu{
+.alexandria li:first-child .nav-menu1{
     border-left: none;
 }
-.alexandria .nav-menu:hover{
+.alexandria .nav-menu1:hover{
      color :  #3F464A ;
      font-weight: 500;
     -webkit-transition: all ease 0.5s;
