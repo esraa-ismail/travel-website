@@ -164,4 +164,11 @@ $('.slider-nav').slick({
 
 
 
- 
+ //loading
+ $(window).on('load', function(){
+   $('.loading svg').fadeOut(2500 , function(){
+     $(this).parent().fadeOut(2000, function(){
+       (this).remove();
+     });
+   });
+ });
