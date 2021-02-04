@@ -74,7 +74,7 @@ button {
 }
 
 #header.header-scrolled {
-    background: #ffff ;
+    background: rgba(0,0,0,0.3) ;
     
 }
 
@@ -106,7 +106,7 @@ button {
 .nav-menu1 a {
     display: block;
     position: relative;
-    color: #4D4E4F;
+    color: #FAFAFA;
     padding: 10px;
     transition: 0.3s;
     font-size: 14px;
@@ -225,29 +225,34 @@ button {
     opacity: 0;
     visibility: hidden;
     border-radius: 10px;
-    padding: 10px 0;
+    text-align: center;
+    background-color: #FAFAFA;
+
+
 }
 
 .mobile-nav * {
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 100%;
 }
 
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #2a2c39;
+    color: #3F464A;
     padding: 10px 20px;
     font-weight: 500;
-    outline: none;
+    background-color: #FAFAFA;
 }
 
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #AC1F32;
+    color: #FAFAFA;
     text-decoration: none;
+    background-color: #AC1F32 ;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -295,6 +300,7 @@ button {
 .mobile-nav-active .mobile-nav {
     opacity: 1;
     visibility: visible;
+    height: 40%;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -380,8 +386,13 @@ button {
 }
 
 
-
-
+.header .carousel-caption {
+    bottom: 19.25rem !important;
+}
+.header .carousel-caption  p {
+    color: #FAFAFA;
+    font-size: 25px;
+}
 
 
 
@@ -440,6 +451,11 @@ button {
 
 .background-booking-as .fontbuttonbooking {
     cursor: pointer;
+    color: #AC1F32;
+}
+.background-booking-as .fontbuttonbooking.active {
+    background-color: #AC1F32;
+    color: #FAFAFA;
 }
 
 
@@ -677,6 +693,7 @@ button {
 .places .work-image{
     position: relative;
     overflow: hidden;
+    margin-top: 20px;
 }
 .places .work-image img {
     height: 400px;
@@ -770,7 +787,7 @@ button {
     height: 15%;
 }
 .places .col-md-5.place-col img {
-    height: 800px;
+    height: 820px;
 }
 
 /*  */
@@ -854,7 +871,147 @@ button {
         placeses part End
 =====================================*/
 /* ====================================
-        al-auxr part start
+        hony moon part start
+=====================================*/
+.honymoon h3 {
+    text-align: center;
+    color: #AC1F32;
+
+}
+
+.honymoon .cartoon1 img ,
+.honymoon .cartoon2 img ,
+.honymoon .cartoon3 img ,
+.honymoon .cartoon4 img {
+    height: 150px;
+    width: 152px;
+    border-radius: 50%;
+}
+
+.honymoon .card img {
+    height: 200px;
+    margin:10px auto;
+    border-radius: 5px;
+    width: 250px;
+}
+
+
+.honymoon .card .fox1 {
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.honymoon .card .fox2 {
+    font-size: 23px;
+    font-weight: 700;
+   
+    color: #AC1F32;
+}
+
+.honymoon .card button:not(.slick-arrow){
+    border: none;
+    margin: 1%;
+    background-color: #AC1F32;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+
+}
+.honymoon .card button:hover:not(.slick-arrow) {
+    color: #AC1F32;
+    background-color: transparent;
+    border: 0.1px solid #AC1F32;
+      
+}
+ 
+
+
+
+
+.heart {
+    margin: 0 auto;
+    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png");
+    width: 76px;
+    height: 30px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+}
+
+.heart:hover {
+    background-position: right;
+}
+
+.heart:hover.tooltip:after,
+.heart:hover.tooltip:before {
+    opacity: 1;
+}
+
+.animated-heart {
+    animation-name: moveHeart;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveHeart {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: right;
+    }
+}
+.infinite-heart {
+    animation-iteration-count: infinite;
+}
+
+.texthoonymoon {
+    font-size: 46px;
+}
+
+.totalcircle {
+    width: 480px;
+    margin: auto;
+}
+
+.opacityhonemoon {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.texthoonymoon1 {
+    text-align: center;
+    margin: auto;
+    font-family: unset;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animated-text 5s steps(120);
+    font-size: 23px;
+}
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* ====================================
+        hony moon part End
+=====================================*/
+
+/* ====================================
+        trstimonial part start
 =====================================*/
 
 .testimonial {
@@ -1430,13 +1587,18 @@ border-top: 1px #AC1F32 solid ;
         alaxandria part start
 =====================================*/
 
+.alexandria {
+    margin: 5% 0;
+}
+
+
 .alexandria .nav-pills {
     padding: 10px 0px;
     background: #fff;
     -webkit-box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
     box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
 }
-.alexandria .nav-menu1{
+.alexandria .nav-menu{
     color: #999;
     font-size: 18px;
     line-height: 24px;
@@ -1445,10 +1607,10 @@ border-top: 1px #AC1F32 solid ;
     padding: 0px 15px;
     border-left: 1px solid #999;
 }
-.alexandria li:first-child .nav-menu1{
+.alexandria li:first-child .nav-menu{
     border-left: none;
 }
-.alexandria .nav-menu1:hover{
+.alexandria .nav-menu:hover{
      color :  #3F464A ;
      font-weight: 500;
     -webkit-transition: all ease 0.5s;
@@ -1487,6 +1649,7 @@ border-top: 1px #AC1F32 solid ;
 .alexandria .work-image{
     position: relative;
     overflow: hidden;
+    margin-top: 20px;
 }
 .alexandria .work-image img {
     height: 400px;
@@ -1545,9 +1708,8 @@ border-top: 1px #AC1F32 solid ;
     border: none;
     padding: 3px 6px;
     display: block;
-    margin-left: 40%;
-    margin-right: 0;
     transition: all 0.3s ease-in-out;
+    margin: auto;
 
    
 }
@@ -1571,9 +1733,12 @@ border-top: 1px #AC1F32 solid ;
     height: 15%;
 }
 
-.alexandria .col-md-5.placese-col img {
+
+.alexandria .col-md-5.place-col img {
     height: 820px;
 }
+
+
 /* ====================================
         alaxandria part end
 =====================================*/
@@ -1582,8 +1747,7 @@ border-top: 1px #AC1F32 solid ;
 =====================================*/
 
 .al-auxr {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
+    margin: 5% 0;
     text-align: center;
 }
 .al-auxr .slider p {
@@ -1604,22 +1768,17 @@ border-top: 1px #AC1F32 solid ;
 }
 .al-auxr .slider-for .img-overlay {
     position:absolute;
-    bottom:0;
+    top: 1%;
     left: 0;
     padding: 10px;
-    background:   rgba(0,0,0,0.3) ;
-}
-.al-auxr .slider-for .img-overlay p {
-    color: #fff;
-    font-size: larger !important;
-    padding: 20px;
-    line-height: 28px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 10px 30px rgb(0, 0 ,0);
 
 }
 
 
 .al-auxr .slider-for .img-overlay span {
-    color: #fff;
+    color: #AC1F32;
     font-size: larger !important;
     padding: 20px;
     font-weight: bolder;
