@@ -1587,18 +1587,18 @@ border-top: 1px #AC1F32 solid ;
         alaxandria part start
 =====================================*/
 
-.alexandria {
+.the-city {
     margin: 5% 0;
 }
 
 
-.alexandria .nav-pills {
+.the-city .nav-pills {
     padding: 10px 0px;
     background: #fff;
     -webkit-box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
     box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
 }
-.alexandria .nav-menu{
+.the-city .nav-menu{
     color: #999;
     font-size: 18px;
     line-height: 24px;
@@ -1607,10 +1607,10 @@ border-top: 1px #AC1F32 solid ;
     padding: 0px 15px;
     border-left: 1px solid #999;
 }
-.alexandria li:first-child .nav-menu{
+.the-city li:first-child .nav-menu{
     border-left: none;
 }
-.alexandria .nav-menu:hover{
+.the-city .nav-menu:hover{
      color :  #3F464A ;
      font-weight: 500;
     -webkit-transition: all ease 0.5s;
@@ -1621,7 +1621,7 @@ border-top: 1px #AC1F32 solid ;
    
 }
 
-.alexandria .nav-item {
+.the-city .nav-item {
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     -ms-transition: all ease 0.5s;
@@ -1629,29 +1629,29 @@ border-top: 1px #AC1F32 solid ;
     transition: all ease 0.5s;
 }
 
-.alexandria .nav-item:hover {
+.the-city .nav-item:hover {
     -webkit-transform:scale(1.2) ;
     transform: scale(1.1);
     
 }
-.alexandria .mx-0{
+.the-city .mx-0{
       margin-top: 50px;
       margin-bottom: 20px;
 }
-.alexandria .nav-pills{
+.the-city .nav-pills{
     text-align: center;
     display: inline-flex;
 }
-.alexandria .placese-col {
+.the-city .placese-col {
     margin-bottom: 20px;
 
 }
-.alexandria .work-image{
+.the-city .work-image{
     position: relative;
     overflow: hidden;
     margin-top: 20px;
 }
-.alexandria .work-image img {
+.the-city .work-image img {
     height: 400px;
     width: 100%;
     transition: all 2s ease-in-out;
@@ -1662,7 +1662,7 @@ border-top: 1px #AC1F32 solid ;
     transform: scale(1.3);
 
 }
-.alexandria .overlay {
+.the-city .overlay {
     position: absolute;
     text-align: center;
     left: 0;
@@ -1678,7 +1678,7 @@ border-top: 1px #AC1F32 solid ;
 }
  
  
-.alexandria .overlay_shape  {
+.the-city .overlay_shape  {
 
     margin-top: 10px;
     background-color: transparent;
@@ -1687,22 +1687,22 @@ border-top: 1px #AC1F32 solid ;
 
 
 } 
-.alexandria .overlay_shape span {
+.the-city .overlay_shape span {
     color: #FFf;
 }
 
-.alexandria .overlay_shape ul {
+.the-city .overlay_shape ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.alexandria .overlay_shape ul li {
+.the-city .overlay_shape ul li {
     display: inline-block;
     color: #fff;
     padding: 5px;
 
 }
-.alexandria .overlay_shape button {
+.the-city .overlay_shape button {
     background-color: #fff;
     color: #000;
     border: none;
@@ -1713,10 +1713,10 @@ border-top: 1px #AC1F32 solid ;
 
    
 }
-.alexandria .col-md-6.europe .overlay_shape button {
+.the-city .col-md-6.europe .overlay_shape button {
     margin-top: 30px;
 }
-.alexandria .overlay_shape  button:hover{
+.the-city .overlay_shape  button:hover{
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
@@ -1724,17 +1724,17 @@ border-top: 1px #AC1F32 solid ;
     transform: rotateY(0deg);
 }
 
-.alexandria .col-md-12.placese-col .overlay {
+.the-city .col-md-12.placese-col .overlay {
     height: 35%;
 } 
 
                
-.alexandria .col-md-5.placese-col .overlay {
+.the-city .col-md-5.placese-col .overlay {
     height: 15%;
 }
 
 
-.alexandria .col-md-5.place-col img {
+.the-city .col-md-5.place-col img {
     height: 820px;
 }
 
