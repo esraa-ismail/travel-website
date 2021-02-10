@@ -1943,6 +1943,515 @@ width: 200px;
         background-color:#AC1F32 ;
         color: #FFf;
     }
+        /*============================================================= blogs CSS Start================================*/
+        .ftco-section {
+            position:relative;
+            width:100%;
+
+        }
+        .ftco-section .nav-pills {
+            padding: 10px 0px;
+            background: #fff;
+            box-shadow: 0 0px 44px rgba(0, 0, 0, 0.11);
+            margin-bottom: 100px;
+            height: 70px;
+
+            
+        }
+        .ftco-section .nav-menu{
+            color: #999;
+            font-size: 18px;
+            line-height: 24px;
+            text-transform: capitalize;
+            font-weight: 400;
+            padding: 0px 15px;
+            border-left: 1px solid #999;
+        }
+        .ftco-section li:first-child .nav-menu{
+            border-left: none;
+        }
+        .ftco-section .nav-menu:hover{
+             color :  #3F464A ;
+             font-weight: 500;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+            -ms-transition: all ease 0.5s;
+            -o-transition: all ease 0.5s;
+            transition: all ease 0.5s;
+           
+        }
+        .ftco-section .nav-item {
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+            -ms-transition: all ease 0.5s;
+            -o-transition: all ease 0.5s;
+            transition: all ease 0.5s;
+            margin: auto;
+
+        }
+        
+        .ftco-section .nav-item:hover {
+            -webkit-transform:scale(1.2) ;
+            transform: scale(1.1);
+            
+        }
+        
+        .ftco-no-pt{padding-top:0!important}
+        .ftco-no-pb{padding-bottom:0!important}
+        .ftco-bg-dark{background:#3c312e}
+        .ftco-subscribe{width:100%;display:block;z-index:0;padding-top:20em}
+        .ftco-subscribe
+        .ftco-vh-100{height:100vh}
+        @media(max-width:1199.98px){.ftco-vh-100{height:inherit;padding-top:5em;padding-bottom:5em}}
+        .blog-entry{overflow:hidden}
+        @media(min-width:768px){.blog-entry{margin-bottom:30px}}
+        @media(max-width:767.98px){.blog-entry{margin-bottom:30px}}
+        .blog-entry .text{position:relative;width:100%;margin:0 auto}
+        .blog-entry .text .heading{font-size:20px;margin-bottom:16px;font-weight:600}
+        .blog-entry .text .heading a{color:#000}.blog-entry .text .heading a:hover,
+        .blog-entry .text .heading a:focus,.blog-entry .text .heading a:active
+        {color:#AC1F32}
+        .blog-entry .meta>div{
+            display:inline-block;margin-right:5px;margin-bottom:0;font-size:14px}
+            .blog-entry .meta>div a
+            {color:gray;font-size:15px}
+            .blog-entry .meta>div a:hover{
+                color:#666}
+                .blog-entry .topp{
+                    position:absolute;top:-4.8em;left:0;padding:5px 15px;background:#AC1F32;border-radius:0 30px 0 0}
+                    .blog-entry .one {
+                        width:55px}
+                        .blog-entry .two{
+                            width:calc(100% - 55px)}.blog-entry span.day{font-size:50px;font-weight:300;color:#fff;line-height:1}
+        .blog-entry span.yr,
+        .blog-entry span.mos{
+            display:block;font-size:13px;line-height:1.4;color:rgba(255,255,255,.8)}
+        .block-20 {
+            overflow:hidden;
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center center;
+            position:relative;
+            display:block;
+            width:100%;
+            height:270px
+        }
+            .block-27 ul li {
+                display: inline-block;
+                margin-bottom: 4px;
+                font-weight: 400;
+            }
+            .block-27 ul li a,
+             .block-27 ul li span {
+                color: #000;
+                text-align: center;
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 50%;
+                border: 1px solid #e6e6e6;
+            }
+
+            .block-27 ul li.active a, .block-27 ul li.active span, .block-27 ul li:hover a, .block-27 ul li:hover span {
+                background: #33313b;
+                color: #fff;
+                border: 1px solid transparent;
+            }
+
+    /*=============================================================single blog CSS Start================================*/
+.inner_banner{
+    background: url(../images/breadcram-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     z-index: 0;
+     margin-bottom: 30px;
+    height: 500px;
+}
+.inner_banner:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #AC1F32;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.inner-text{
+    text-align: center;
+    padding: 80px 0;
+    z-index: 999;
+}
+.inner-text h2{
+    color: #fff;
+    font-size: 40px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 15%;
+}
+.inner-link span a,
+.inner-link span{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.details-banner{
+    position: relative;
+}
+.blog-overlay{
+    position: absolute;
+    bottom: 22px;
+    left: 50px;
+}
+.blog-overlay h4{
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+.blog-overlay ul li{
+    float: left;
+      color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.blog-overlay ul li a{
+    padding: 6px 16px;
+    background: #fff;
+    color: #AC1F32;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.blog-detail-inner p{
+    line-height: 28px;
+    padding-top: 30px;
+}
+.blog-sec{
+    padding-top: 80px;
+}
+.blog-detail-inner h4{
+     color: #444;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.tag {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.tag h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 24px;
+    font-weight: 500;
+    color: #222;
+    padding-bottom: 8px;
+    padding-right: 20px;
+}
+
+.tag a {
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 31px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #444;
+    outline: 0;
+    text-transform: capitalize;
+}
+.tag a:hover {
+     color: #fff;
+        background: #AC1F32;
+    border: 1px solid #AC1F32;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+.share{
+    padding-top: 30px;
+}
+.share,
+.share ul li {
+    display: inline-flex;
+}
+
+.share h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 24px;
+    font-weight: 500;
+    color: #222;
+    padding-right: 10px;
+    margin-top: 6px!important;
+}
+.share ul li a {
+    margin: 0px 6px 0 0px;
+    text-align: center;
+    border: 1px solid #ccc;
+    float: left;
+    color: #777;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.share ul li a:hover {
+    color: #fff;
+        background: #AC1F32;
+    border: 1px solid #AC1F32;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+/* comment */
+
+
+.comments-title {
+    border-bottom: 1px solid #eee;
+    font-size: 24px;
+    color: #222;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 40px 0 10px;
+    text-transform: capitalize;
+}
+
+.blog_comments .media {
+    padding: 0 0 10px;
+}
+
+.media-middle {
+    margin-top: 30px;
+}
+
+.media_first {
+    border-bottom: 1px solid #ddd;
+}
+
+.blog_comments .media .media-left img {
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.blog_comments .media .media-left {
+    padding-right: 20px;
+}
+
+.blog_media .media-heading {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 600;
+    color: #222;
+}
+
+.blog_media .media-heading span {
+    float: right;
+    color: #777;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog_media p {
+    padding: 10px 0 5px !important;
+    color: #222;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.blog_media a {
+    color: #777;
+}
+
+.form-detail {
+    margin-bottom: 70px;
+}
+/* contact form */
+
+.form-detail {
+    margin-bottom: 70px;
+}
+
+.blogdetails_form h4 {
+    padding: 15px 0 25px !important;
+    text-transform: none;
+}
+
+.blogdetails_form .form-group textarea {
+    width: 100%;
+    height: 120px;
+    padding: 5px 10px;
+}
+
+.blogdetails_form .form-group {
+    margin-left: 0;
+}
+
+.blogdetails_form .form-group input,
+.blogdetails_form .form-group textarea {
+    color: #777;
+    text-transform: capitalize;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    font-size: 13px;
+}
+
+.blogdetails_form .book_btn {
+    width: 100%;
+}
+
+.blog_grid_btn a {
+    color: #fff;
+}
+
+.blogdetails_form {
+    margin-top: 43px;
+    margin-bottom: 80px;
+    padding-left: 10px;
+}
+
+.blog-detail-img img {
+    width: 100%;
+    margin: 50px 0 0;
+}
+
+.bro-btn2 {
+    text-align: center;
+        background: #AC1F32;
+    padding: 10px 0 8px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    z-index: 99;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.bro-btn2:hover {
+    background: #fff;
+        color: #AC1F32;
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+.detail-btn-bottom p{
+    font-weight: 600!important;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #444;
+}
+.detail-btn-bottom p a{
+    color: #AC1F32;
+}
+.blog_media a:hover{
+    color: #AC1F32;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+.newsletter {
+    padding: 80px 0 0px;
+}
+
+.news-inner {
+    padding: 40px 23px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 1px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 1px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    border: 1px solid #ddd;
+}
+
+.news-text h3 {
+    text-align: left;
+    font-size: 24px;
+    color: #352345;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.news-text p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+.subscribe-search{
+    margin-top: 24px;
+}
+.subscribe-search .input-group input {
+    width: 100%;
+    font-weight: 400;
+    border: 1px solid #999;
+    padding: 10px 8px 8px;
+    color: #888!important;
+    font-size: 14px;
+    background-color: transparent;
+    padding-left: 17px;
+}
+.subscribe-search span {
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+.subscribe-search span .button-form {
+    font-size: 16px;
+    color: #fff!important;
+    padding: 12px 18px 10px;
+    width: 300px;
+}
+
+.popular .col-md-2 {
+    padding-right: 13px;
+    padding-left: 13px;
+}
+@media (max-width: 767px) {
+     .tag {
+        display: none;
+    }
+}
+
 
     
         /********************************************loading*************************************/
