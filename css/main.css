@@ -1409,7 +1409,7 @@ opacity: 1;
 }
 .footer-bottom .copyright a,
 .footer-bottom .template-by a {
-    color: #AC1F32;
+    color: #fff;
 }
 
 
@@ -1443,32 +1443,15 @@ opacity: 1;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
 }
 
-/***************************search result paga**/
-        
-.toursbackimg{ width: 100%;
-    height: 600px;
-    background-image: url("../images/pexels-photo-753626.jpeg");
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.tourstittle{
-    text-align: center;
-    padding-top: 200px;
-    color:rgb(221, 20, 20);
-    font-size: 90px;
-    text-shadow: black 5px 5px 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
+/***************************search result paga*******/
 .tours{
     margin-top: 20px;
 }
 
 
 
-.searchbox{ padding: 20px;
+.searchbox{ 
+    padding: 20px;
     border: 1px solid gainsboro;
     border-radius: 2px;
     background-color: whitesmoke;
@@ -1476,25 +1459,36 @@ opacity: 1;
     text-align: center;
     
 }
+
+
+.searchinput{
+    position: relative;
+
+   width: auto;
+   margin-top:  20px;
+  
+}
+.searchinput input {
+    border-radius: 2px; 
+    border: 0.5px solid gainsboro ;
+    width: 100%;
+    cursor: pointer;
+}
 .icondesign{ 
     
- 
+    position: absolute;
     font-size: 15px;
     font-weight: 100;
     color: #2426258e;
-    
-    margin-left: -30px;
+    right: 3%;
+
     box-sizing: border-box;
     
 }
 
-.searchinput{ width: auto;
-   
-   margin-top:  20px;
-  
-}
 
-.check1{padding-top: 15px;
+.check1{
+    padding-top: 15px;
     display: block;
     font-size: 15px;
     color: rgb(129, 128, 128);
@@ -1506,13 +1500,12 @@ opacity: 1;
 
 
 
-.plog_post { display: flex;
+.plog_post { 
+    display: flex;
     padding: 9px;
     background-color: #FFf;
     box-shadow: 0 1px  8px rgba(156, 146, 146, 0.2);
     align-items: center;
-border-left: 1px #AC1F32 solid ;
-border-top: 1px #AC1F32 solid ;
     border-radius: 5px;
     margin-top: 5px;
     
@@ -1521,23 +1514,26 @@ border-top: 1px #AC1F32 solid ;
 .plog-post_img {
    
     transform: translatex(-30px);
+    
   
 }
 
 
 .plog-post_img img{
     height: 220px;
-    width: 190px;
+    width: 200px;
     border-radius: 5px;
     box-shadow: 0 1px  10px rgba(97, 59, 59, 0.2);
+    transition: 1s;
+    cursor: pointer;
+
 }
 
 .plog-post_img img:hover{
     transform: scale(1.1);
-    opacity: 0.9;
-    transition: 1s;
 }
-.spanblock{display: block;
+.spanblock{
+    display: block;
     color: #3F464A;
     font-size: 10px;
     font-weight: 500;
@@ -1566,20 +1562,19 @@ border-top: 1px #AC1F32 solid ;
 
 .blog-post_cta{
     display: inline-block;
-    padding: 5px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #AC1F32;
-    background-color:#fff ;
-    border: 1px solid  #AC1F32 ;
-    border-radius: 2px;
-    margin-top: 5px;
-    text-decoration: none;}
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #AC1F32;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 
-    .blog-post_cta:hover{
-        background-color:#AC1F32 ;
-        color: #FFf;
+.blog-post_cta:hover {
+        background-color: transparent ;
+        border: #AC1F32 1px solid;
+        color: #AC1F32;
     }
 
 /******************************************     Explore Egypt  ****************************************************/
@@ -1819,130 +1814,6 @@ border-top: 1px #AC1F32 solid ;
         al-auxer part End
 =====================================*/
 
-/*********************************************************************search result page***************************************************/
-.toursbackimg{ width: 100%;
-    height: 600px;
-    background-image: url("../images/pexels-photo-753626.jpeg");
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.tourstittle{
-    text-align: center;
-    padding-top: 200px;
-    color:  #fff;
-    font-size: 90px;
-    text-shadow: black 5px 5px 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.tours{
-    margin-top: 20px;
-}
-.searchbox{ padding: 20px;
-    border: 1px solid gainsboro;
-    border-radius: 2px;
-    background-color: whitesmoke;
-    height: 1000px;
-    text-align: center;
-    
-}
-.icondesign{ 
-
-    font-size: 15px;
-    font-weight: 100;
-    color: #2426258e;
-    margin-left: -30px;
-    box-sizing: border-box;
-  
-}
-
-.searchinput{ width: auto;
-   
-   margin-top:  20px;
-
-}
-
-.check1{padding-top: 15px;
-    display: block;
-    font-size: 15px;
-    color: rgb(129, 128, 128);
-
-}
-.checkboxes { 
-    text-align: left;
-}
-
-.plog_post { display: flex;
-    padding: 9px;
-    background-color: #FFf;
-    box-shadow: 0 1px  8px rgba(156, 146, 146, 0.2);
-    align-items: center;
-border-left: 1px #AC1F32 solid ;
-border-top: 1px #AC1F32 solid ;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-
-.plog-post_img {
-overflow: hidden;
-width: 200px;
-}
-
-
-.plog-post_img img{
-    height: 220px;
-    width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 1px  10px rgba(97, 59, 59, 0.2);
-    transition: 1s;
-
-}
-.plog-post_img img:hover{
-     transform: scale(1.1);
-}
-.spanblock{display: block;
-    color: #3F464A;
-    font-size: 10px;
-    font-weight: 500;
-    margin:5px;
-    
-}
-.plog-post_tittle{
-    font-size: 22px;
-    margin: px;
-    text-transform: uppercase;
-    color: #AC1F32;
-    font-weight: 700;
-}
-
-
-.fa-star{
-    color: gold;
-    font-size: 15px;}
-    
-.plog-post_text{
-    font-size: 15px ;
-    line-height: 18px ;
-}
-
-.blog-post_cta{
-    display: inline-block;
-    padding: 5px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #AC1F32;
-    background-color:#fff ;
-    border: 1px solid  #AC1F32 ;
-    border-radius: 2px;
-    margin-top: 5px;
-    text-decoration: none;}
-
-    .blog-post_cta:hover{
-        background-color:#AC1F32 ;
-        color: #FFf;
-    }
         /*============================================================= blogs CSS Start================================*/
         .ftco-section {
             position:relative;
@@ -2061,7 +1932,7 @@ width: 200px;
 
     /*=============================================================single blog CSS Start================================*/
 .inner_banner{
-    background: url(../images/africia.md.jpg) no-repeat;
+    background: url(../images/breadcram-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
