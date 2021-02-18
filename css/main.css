@@ -1895,6 +1895,207 @@ transform: scale(1.2);
         al-auxer part End
 =====================================*/
 
+
+        /*============================================================= about CSS Start================================*/
+
+.idea {
+    margin: 20px 0;
+
+}
+
+.idea  .text {
+
+    padding: 3%;
+
+}
+
+.idea  button {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #AC1F32;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+.idea  button:hover { 
+    background-color: transparent;
+    color: #AC1F32;
+    border: #AC1F32 solid 1px;
+}
+
+/*---------------------
+  Services
+-----------------------*/
+
+.about {
+    margin: 10% 0;
+}
+
+.services {
+	padding: 40px 0;
+}
+
+.services__item {
+	margin-bottom: 40px;
+    background-color: #f9eded;
+    padding: 10px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.services__item h4 {
+	margin-top: 40px 0;
+    font-weight: bold;
+}
+
+.services__item p {
+	margin-bottom: 0;
+}
+
+/*---------------------
+   History
+-----------------------*/
+
+.section-title.history-title {
+	margin-bottom: 95px;
+}
+.section-title.history-title h2,
+.section-title.history-title h4 {
+    text-align: center;
+}
+ 
+
+.history__content {
+	position: relative;
+}
+
+.history__content::after {
+	position: absolute;
+	left: 50%;
+	top: -40px;
+	width: 2px;
+	height: 1100px;
+	background: rgba(29, 28, 28, 0.3);
+	-webkit-transform: translateX(-1px);
+	-ms-transform: translateX(-1px);
+	transform: translateX(-1px);
+	content: "";
+}
+
+.history__item {
+	margin-bottom: 220px;
+	position: relative;
+}
+
+.history__item .history__date {
+	position: absolute;
+	left: -104px;
+	top: 10px;
+	height: 2px;
+	width: 80px;
+	background: rgba(29, 28, 28, 0.3);
+	content: "";
+	z-index: 9;
+}
+
+.history__item .history__date:before {
+	position: absolute;
+	left: -18px;
+	top: -9px;
+	height: 20px;
+	width: 20px;
+	background: #ffffff;
+	border-radius: 50%;
+	content: "";
+}
+
+.history__item .history__date:after {
+	position: absolute;
+	left: -15px;
+	top: -6px;
+	height: 14px;
+	width: 14px;
+	background: #E9AD28;
+	border-radius: 50%;
+	content: "";
+}
+
+.history__item.left__item {
+	text-align: right;
+}
+
+.history__item.left__item .history__date {
+	left: auto;
+	right: -104px;
+}
+
+.history__item.left__item .history__date:before {
+	left: auto;
+	right: -18px;
+}
+
+.history__item.left__item .history__date:after {
+	left: auto;
+	right: -15px;
+}
+
+.history__item.right__first__item {
+	margin-top: 220px;
+}
+
+.history__item.mb-0 {
+	margin-bottom: 0;
+}
+
+.history__item span {
+	font-size: 16px;
+	color: #777C81;
+}
+
+.history__item h4 {
+	color: #202020;
+	font-weight: 500;
+	margin-bottom: 25px;
+	margin-top: 6px;
+}
+
+.history__item img {
+	margin-bottom: 20px;
+	min-width: 100%;
+    max-width: 100%;
+}
+
+.history__item p {
+	margin-bottom: 0;
+	line-height: 28px;
+}
+
+@media (max-width: 768px) {
+    .history__item .history__date:after { 
+        display: none; 
+    }
+    .history__item.left__item .history__date:before {
+            display: none;
+        }
+  .history__content::after {
+      display: none;
+  }
+
+  .history__item.left__item .history__date {
+    display: none;
+}
+
+  .history__item .history__date {
+    display: none;
+}
+
+}
+
+
+
+
         /*============================================================= blogs CSS Start================================*/
         .ftco-section {
             position:relative;
