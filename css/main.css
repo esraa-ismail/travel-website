@@ -1658,13 +1658,201 @@ transform: scale(1.2);
         color: #AC1F32;
     }
 
+
+    /******************************************single trip paga*********************************************/
+   .tripbody  .nav-tabs {
+    padding: 10px;
+    background: #AC1F32;
+    box-shadow: 0 0px 44px rgb(0 0 0 / 11%);
+    margin-bottom: 100px;
+    width: 100%;
+} 
+
+
+.tripbody .nav-link {
+
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+    border-left:1px #ffff solid ;
+    margin: 10px;
+ 
+}
+.tripbody .nav-item .nav-link:focus ,
+.tripbody .nav-item .nav-link:hover,
+.tripbody .nav-item .nav-link.active {
+    outline: none;
+    background-color: #AC1F32;
+    color: #ffffff;
+    transform: scale(1.1);
+    background-color: #AC1F32;
+    outline: none;
+    border-left:1px #ffff solid ;
+
+ 
+}
+
+
+
+
+
+.sbsinglet{ 
+    height: 650px;
+    display: inline-block;
+}
+
+
+.infosinglet{
+    border-top: solid 1px gainsboro;
+    padding: 20px;
+}
+.infosinglet:hover{
+    background-color: rgb(247, 241, 241);
+}
+
+.spaninfo1{
+     color: #AC1F32;
+font-weight: bold;
+font-size: 22px;
+}
+.spaninfo2{
+    margin-top: 30px;
+    
+   
+    font-size: 17px;
+}
+.tripbody button {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #AC1F32;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.tripbody button:hover {
+    color: #AC1F32;
+    background-color: transparent;
+    border: 1px solid #AC1F32;
+      
+}
+.tripbody .searchinput input,
+.tripbody .searchinput textarea {
+    border-radius: 2px;
+     border: 0.5px solid gainsboro;
+     width: 100%;
+}
+
+.fromgallary{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+
+
+.gallaryinfo img{
+    height: 350px;
+    padding: 10px;
+}
+
+
+.tourplanmain{
+    border-left: #E0E1DE 1px dashed;
+    padding-left: 20px;
+    
+}
+
+.tourplan1{
+    padding-top: 20px;
+}
+.tourplan1 h1{
+    color: #AC1F32;
+}
+ .tourplan1 p{
+line-height: 25px;
+}
+
+.locationparaghraf{
+   display: block;
+  
+}
+.locationparaghraf  h2{
+    line-height: 25px;
+    color:#AC1F32 ;
+    font-size: 20px;
+}
+.locationparaghraf p{
+    line-height: 25px;
+    text-justify: newspaper;
+}
+
+  
+.tripbody #gallary ul {
+    display: flex;
+    list-style:none;
+    height:450px;
+    overflow:hidden;
+    cursor: pointer;
+
+  }
+  
+  
+  #gallary  li {
+    width:20%;
+    height:450px;
+    float:left;
+    border-radius: 3px;
+    border-left:1px solid white;
+    -webkit-transition:all 0.7s;
+    -moz-transition:all 0.7s;
+    transition:all 0.7s;
+    box-shadow:-2px 0 10px 2px;
+  }
+  
+  
+  #gallary span {
+    display:block;
+    width:100%;
+    color:white;
+    white-space:nowrap;
+    padding:19px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+
+}
+  
+  #gallary   img {
+    height:450px;
+  }
+  
+  #gallary   ul:hover li {
+    width:5%;  
+  }
+  
+  
+  #gallary  ul li:hover {
+    width:80%;
+  }
+  
+  
+  
+
+
+
 /******************************************     Explore Egypt  ****************************************************/
 /* ====================================
         alaxandria part start
 =====================================*/
 
 .the-city {
-    margin: 5% 0;
+    margin:  5% 0;
 }
 
 
@@ -2603,6 +2791,7 @@ transform: scale(1.2);
         display: none;
     }
 }
+
 
 
     
