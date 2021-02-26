@@ -27,6 +27,7 @@
 
 <body>
     <!-- ======= Header ======= -->
+
     <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
         <div class="container d-flex align-items-center">
 
@@ -36,7 +37,7 @@
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
-            <nav class="nav-menu d-none d-lg-block">
+            <nav class="nav-menu changestylenavmenu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="#">Home</a></li>
 
@@ -90,7 +91,7 @@
                     </li>
 
 
-                    <li class="drop-down"><a href="">OUR SERVICES </a>
+                    <!-- <li class="drop-down"><a href="">OUR SERVICES </a>
                         <ul>
                             <li class="drop-down"><a href="#">Hotels</a>
                                 <ul>
@@ -113,13 +114,78 @@
 
                         </ul>
 
-                    </li>
+                    </li> -->
 
                 </ul>
-
             </nav>
             <!-- .nav-menu -->
-        </div>
+            <!-- Start sign-up and login -->
+            <button type="button" class="btn  btn-primary-as " data-toggle="modal" data-target="#exampleModal">Sign-Up  </button>
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-wrap">
+                                <div class="tabs">
+                                    <h3 class="signup-tab"><a class="active" href="#signup-tab-content">Sign Up</a></h3>
+                                    <h3 class="login-tab"><a href="#login-tab-content">Login</a></h3>
+                                </div>
+                                <!--.tabs-->
+
+                                <div class="tabs-content">
+                                    <div id="signup-tab-content" class="active">
+                                        <form class="signup-form" action="" method="">
+                                            <input type="email" class="input" id="user_email" autocomplete="off" placeholder="User_Name">
+                                            <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                                            <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password"><input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Confirm Password">
+                                            <input type="submit" class="button" value="Sign Up">
+                                        </form>
+                                        <!--.login-form-->
+                                        <div class="help-text">
+                                            <p>By signing up, you agree to our</p>
+                                            <p><a href="#">Terms of service</a></p>
+                                        </div>
+                                        <!--.help-text-->
+                                    </div>
+                                    <!--.signup-tab-content-->
+
+                                    <div id="login-tab-content">
+                                        <form class="login-form" action="" method="post">
+                                            <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email">
+                                            <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                                            <input type="checkbox" class="checkbox" id="remember_me">
+                                            <label for="remember_me">Remember me</label>
+
+                                            <input type="submit" class="button" value="Login">
+                                        </form>
+                                        <!--.login-form-->
+                                        <div class="help-text">
+                                            <p><a href="#">Forgot your password?</a></p>
+                                        </div>
+                                        <!--.help-text-->
+                                    </div>
+                                    <!--.login-tab-content-->
+                                </div>
+                                <!--.tabs-content-->
+                            </div>
+                            <!--.form-wrap-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END sign-up and login -->
+
     </header>
     <!-- ======= Header ======= -->
     <!-- start menu -->
@@ -133,7 +199,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active ">
-                    <img src="Ahmed AlSoudi/ahmed/img/17.jpg" width="500px" height="800px" class="d-block w-100 animatphotobackground " alt="...">
+                    <img src="Ahmed AlSoudi/ahmed/img/12.jpg" width="500px" height="800px" class="d-block w-100 animatphotobackground " alt="...">
                     <div class="carousel-caption opisity-background">
                         <h1 class="photo1-text-as">Travel $ Exploration</h1>
 
@@ -147,7 +213,7 @@
 
 
                 <div class="carousel-item  ">
-                    <img src="Ahmed AlSoudi/ahmed/img/bg_4.jpg" width="500px" height="800px" class="d-block w-100 animatphotobackground " alt="...">
+                    <img src="Ahmed AlSoudi/ahmed/img/14.jpg" width="500px" height="800px" class="d-block w-100 animatphotobackground " alt="...">
                     <div class="carousel-caption opisity-background">
                         <h1 class="photo1-text-as">Travel $ Exploration</h1>
 
@@ -160,7 +226,7 @@
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="Ahmed AlSoudi/ahmed/img/16.jpg" width="500px" height="800px" class="d-block w-100 animatphotobackground " alt="...">
+                    <img src="Ahmed AlSoudi/ahmed/img/15.jpg" width="500px" height="800px" class="d-block w-100 animatphotobackground " alt="...">
                     <div class="carousel-caption opisity-background">
                         <h1 class="photo1-text-as">Travel $ Exploration</h1>
 
@@ -760,7 +826,7 @@
     </section>
 
     <!-- start best destination -->
-    <section class="places section">
+    <!-- <section class="places section">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-12">
@@ -1438,7 +1504,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -2094,6 +2160,22 @@
         $('.checkin_date').datepicker();
         $('.checkout_date').datepicker();
     </script>
+    <script>
+        jQuery(document).ready(function($) {
+            tab = $('.tabs h3 a');
+
+            tab.on('click', function(event) {
+                event.preventDefault();
+                tab.removeClass('active');
+                $(this).addClass('active');
+
+                tab_content = $(this).attr('href');
+                $('div[id$="tab-content"]').removeClass('active');
+                $(tab_content).addClass('active');
+            });
+        });
+    </script>
+
     <script src="js/main-js.js"></script>
 
 

@@ -17,6 +17,7 @@ a:hover {
 
 img {
     vertical-align: middle;
+    border-style: none;
 }
 
 ul,
@@ -241,11 +242,12 @@ button {
     outline-color: #ddd;
 }
 
-.changplacesearch {
+
+/* .changplacesearch {
     margin-left: 713px;
     margin-top: -58px;
     width: 49%;
-}
+} */
 
 .fontbuttonbooking {
     color: black!important;
@@ -283,7 +285,7 @@ button {
 
 .photo1-text-as {
     position: relative;
-    top: 0px;
+    top: 132px;
     color: white;
     font-family: 'Lobster', cursive;
     font-size: 73px;
@@ -353,7 +355,7 @@ button {
 }
 
 .styleprag-as {
-    margin-top: 38px;
+    margin-top: 156px;
     font-weight: 600;
     font-style: oblique;
     text-align: center;
@@ -388,7 +390,7 @@ button {
 
 .button1-as {
     font-family: 'Lobster';
-    font-size: 17px;
+    font-size: 14px;
     background-color: #ff7f50;
     animation: tracking-in-expand-fwd-bottom 2.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -480,12 +482,16 @@ button {
 
 /* Desktop Navigation */
 
-.nav-menu,
+.changestylenavmenu {
+    margin-top: 25px;
+}
+
+
+/* .nav-menu,
 .nav-menu * {
-    margin-top: 12px;
     margin-left: -5px;
     list-style: none;
-}
+} */
 
 .nav-menu>ul>li {
     position: relative;
@@ -599,7 +605,7 @@ button {
 
 .mobile-nav-toggle {
     position: fixed;
-    right: 15px;
+    right: -62px;
     top: 15px;
     z-index: 9998;
     border: 0;
@@ -641,7 +647,7 @@ button {
 
 .mobile-nav a {
     display: block;
-    position: relative;
+    /* position: relative; */
     color: #2a2c39;
     padding: 10px 20px;
     font-weight: 500;
@@ -660,8 +666,7 @@ button {
     font-family: IcoFont;
     padding-left: 10px;
     position: absolute;
-    /* right: 15px; */
-    left: 82%;
+    right: 15px;
 }
 
 .mobile-nav .active.drop-down>a:after {
@@ -669,7 +674,7 @@ button {
 }
 
 .mobile-nav .drop-down>a {
-    padding-right: 700px;
+    padding-right: 35px;
 }
 
 .mobile-nav .drop-down ul {
@@ -886,6 +891,12 @@ button {
         transform: translate(85px, 0%);
     }
 }
+
+
+/* ______________________________________________- */
+
+
+/* start style booking */
 
 .d-flex {
     display: -webkit-box !important;
@@ -1515,6 +1526,199 @@ button {
     -ms-border-radius: 2px;
     border-radius: 2px;
 }
+
+.btn-primary:focus .btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:focus,
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem #ff7f5000 !important;
+}
+
+
+/* start style card insid */
+
+.form-wrap {
+    background-color: #fff;
+    /* width: 320px; */
+    margin: -1em auto;
+    /* box-shadow: 0px 1px 8px #BEBEBE; */
+    /* -webkit-box-shadow: 0px 1px 8px #BEBEBE; */
+    /* -moz-box-shadow: 0px 1px 8px #BEBEBE; */
+}
+
+.form-wrap .tabs {
+    overflow: hidden;
+}
+
+.form-wrap .tabs h3 {
+    float: left;
+    width: 50%;
+}
+
+.form-wrap .tabs h3 a {
+    padding: 0.5em 0;
+    text-align: center;
+    font-weight: 400;
+    background-color: #ff7f506e;
+    display: block;
+    color: #666;
+    font-size: 22px;
+}
+
+.form-wrap .tabs h3 a.active {
+    background-color: #ff7f50;
+}
+
+.form-wrap .tabs-content {
+    padding: 1.5em;
+    margin-top: -23px;
+}
+
+.form-wrap .tabs-content div[id$="tab-content"] {
+    display: none;
+}
+
+.form-wrap .tabs-content .active {
+    display: block !important;
+}
+
+.form-wrap form .input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: inherit;
+    font-family: inherit;
+    padding: .8em 0 10px .8em;
+    border: 1px solid #CFCFCF;
+    outline: 0;
+    display: inline-block;
+    margin: 0 0 .8em 0;
+    padding-right: 2em;
+    width: 100%;
+}
+
+.form-wrap form .button {
+    width: 100%;
+    padding: .8em 0 10px .8em;
+    background-color: #fd6e22;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form-wrap form .button:hover {
+    background-color: #df691e;
+}
+
+.form-wrap form .checkbox {
+    visibility: hidden;
+    padding: 20px;
+    margin: .5em 0 1.5em;
+}
+
+.form-wrap form .checkbox:checked+label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.form-wrap form label[for] {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.form-wrap form label[for]:before {
+    content: '';
+    position: absolute;
+    border: 1px solid #CFCFCF;
+    width: 17px;
+    height: 17px;
+    top: 0px;
+    left: -14px;
+}
+
+.form-wrap form label[for]:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background-color: transparent;
+    top: 4px;
+    left: -10px;
+    border: 3px solid #28A55F;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.form-wrap .help-text {
+    margin-top: .6em;
+}
+
+.form-wrap .help-text p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn-primary-as {
+    color: #fff;
+    background-color: #ffffff00 !important;
+    border-color: #ffa700 !important;
+    margin-left: 19px;
+}
+
+@media(max-width:989px) {
+    .btn-primary-as {
+        font-size: 12px;
+        margin-right: -45px;
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:856px) {
+    .btn-primary-as {
+        font-size: 12px;
+        margin-right: -6px;
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:790px) {
+    .btn-primary-as {
+        font-size: 12px;
+        margin-right: -6px;
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:580px) {
+    .btn-primary-as {
+        font-size: 11px;
+        margin-right: 40px;
+        margin-top: -10px;
+    }
+}
+
+.modal-backdrop {
+    z-index: 1 !important;
+}
+
+@media (min-width:320px) and (max-width:722px) {
+    .modal-content {
+        width: 89% !important;
+        margin: auto
+    }
+}
+
+
+/* End style card insid */
 
 
 /*================================================
@@ -2289,7 +2493,7 @@ button {
 }
 
 .imgtop .overlay_shape {
-    margin-top: 10px;
+    margin-top: -2px;
     background-color: transparent;
     line-height: 30px;
     text-align: center;
@@ -3335,10 +3539,6 @@ a.back-to-top {
     transform: scale(1.1);
 }
 
-.ftco-no-pt {
-    padding-top: 0!important
-}
-
 .ftco-no-pb {
     padding-bottom: 0!important
 }
@@ -4013,7 +4213,7 @@ a.back-to-top {
 }
 
 .single-package-item h3 {
-    /* position: relative; */
+    position: relative;
     font-size: 20px !important;
     color: #565a5c;
     font-weight: 600 !important;
@@ -4030,8 +4230,8 @@ a.back-to-top {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 1px;
-    background: #ebebeb;
+    height: 2px;
+    background: #FF7F50;
 }
 
 .packages-para {
