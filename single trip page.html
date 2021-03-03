@@ -29,36 +29,135 @@
         <div>
             <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
                 <div class="container d-flex align-items-center">
-
+        
                     <div class="logo mr-auto">
-                        <a><img src="images/logo (2).png" alt="" class="img-fluid"></a>
+                        <a href="index.html"><img src="Ahmed AlSoudi/ahmed/img/logo example 3.png" alt="" class="img-fluid"></a>
                     </div>
-
-                    <nav class="nav-menu1 d-none d-lg-block">
+        
+                    <nav class="nav-menu changestylenavmenu d-none d-lg-block">
                         <ul>
-
-                            <li class="active"><a href="index.html">Home</a></li>
-
-                            <li><a href="about.html">About us </a>
+                            <li ><a href="index.html">Home</a></li>
+        
+                            <li class="drop-down"><a href="about.html">About us </a>
+                                <ul>
+                                    <li><a href="conect us.html">Contact us</a></li>
+                                    <li><a href="FAQ.html">FAQ</a></li>
+                                    <li><a href="#">Our Team</a></li>
+                                </ul>
                             </li>
-                            <li><a href="blogs.html">Blogs</a>
+        
+        
+                            <li class="drop-down"><a href="">Destination </a>
+                                <ul>
+                                    <li><a href="#">Destination 1</a></li>
+                                    <li><a href="#">Destination 2</a></li>
+                                    <li><a href="#">Destination 3</a></li>
+                                </ul>
                             </li>
-
-                            <li><a href="Egypt.html">Explore Egypt</a>
-
+        
+        
+        
+                            <li class="drop-down"><a href="blogs.html">Blog</a>
+                                <ul>
+                                    <li><a href="#">standard list</a></li>
+                                    <li><a href="#">masonryn list</a></li>
+                                    <li class="drop-down"><a href="#">post types</a>
+                                        <ul>
+                                            <li><a href="#">standard</a></li>
+                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="#">video</a></li>
+                                            <li><a href="#">Audio</a></li>
+        
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
-                            <li><a href="faq.html">FAQ </a>
-
+        
+                            <li class="drop-down"><a href="Egypt.html">Explore Egypt</a>
+                                <ul>
+                                    <li><a href="#">tour single</a></li>
+                                    <li class="drop-down"><a href="#">tour lists</a>
+                                        <ul>
+                                            <li><a href="#">standard</a></li>
+                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="#">Search page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="blogs.html">Bolg </a></li>
+                                </ul>
                             </li>
-                            <li><a href="contact.html">contact us </a>
-
-                            </li>
-
+        
+        
                         </ul>
-
                     </nav>
                     <!-- .nav-menu -->
-                </div>
+                    <!-- Start sign-up and login -->
+                    <button type="button" class="btn  btn-primary-as " data-toggle="modal" data-target="#exampleModal">Sign-Up  </button>
+        
+        
+        
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                         </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-wrap">
+                                        <div class="tabs">
+                                            <h3 class="signup-tab"><a class="active" href="#signup-tab-content">Sign Up</a></h3>
+                                            <h3 class="login-tab"><a href="#login-tab-content">Login</a></h3>
+                                        </div>
+                                        <!--.tabs-->
+        
+                                        <div class="tabs-content">
+                                            <div id="signup-tab-content" class="active">
+                                                <form class="signup-form" action="" method="">
+                                                    <input type="email" class="input" id="user_email" autocomplete="off" placeholder="User_Name">
+                                                    <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                                                    <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password"><input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Confirm Password">
+                                                    <input type="submit" class="button" value="Sign Up">
+                                                </form>
+                                                <!--.login-form-->
+                                                <div class="help-text">
+                                                    <p>By signing up, you agree to our</p>
+                                                    <p><a href="#">Terms of service</a></p>
+                                                </div>
+                                                <!--.help-text-->
+                                            </div>
+                                            <!--.signup-tab-content-->
+        
+                                            <div id="login-tab-content">
+                                                <form class="login-form" action="" method="post">
+                                                    <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email">
+                                                    <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                                                    <input type="checkbox" class="checkbox" id="remember_me">
+                                                    <label for="remember_me">Remember me</label>
+        
+                                                    <input type="submit" class="button" value="Login">
+                                                </form>
+                                                <!--.login-form-->
+                                                <div class="help-text">
+                                                    <p><a href="#">Forgot your password?</a></p>
+                                                </div>
+                                                <!--.help-text-->
+                                            </div>
+                                            <!--.login-tab-content-->
+                                        </div>
+                                        <!--.tabs-content-->
+                                    </div>
+                                    <!--.form-wrap-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- END sign-up and login -->
+        
             </header>
             <!-- ======= Header ======= -->
             <div class="backbook">
