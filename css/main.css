@@ -486,6 +486,10 @@ button {
     margin-top: 25px;
 }
 
+.changestylenavmenuaboutus {
+    margin-left: 411px;
+}
+
 .nav-menu>ul>li {
     position: relative;
     white-space: nowrap;
