@@ -4385,7 +4385,6 @@ a.back-to-top {
         font-size: 16px !important;
     }
 }
-
 .nav-menu1>ul>li {
     position: relative;
     white-space: nowrap;
@@ -4516,7 +4515,6 @@ a.back-to-top {
     -o-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
-
 @media (max-width: 981px) {
     .placese li:nth-child(6) .nav-menu1 {
         border-left: none;
@@ -4612,7 +4610,6 @@ a.back-to-top {
     -o-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
-
 .ftco-section .nav-menu1 {
     color: #999;
     font-size: 18px;
