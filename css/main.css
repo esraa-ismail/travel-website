@@ -243,11 +243,7 @@ button {
 }
 
 
-/* .changplacesearch {
-    margin-left: 713px;
-    margin-top: -58px;
-    width: 49%;
-} */
+
 
 .fontbuttonbooking {
     color: black!important;
@@ -273,6 +269,10 @@ button {
     height: 108%;
 }
 
+.opisity-background h2 {
+    margin-top: 30%;
+    font-size: 45px;
+}
 .carousel-indicators li {
     width: 36px !important;
     height: 7px !important;
