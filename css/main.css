@@ -42,7 +42,6 @@ h4 {
 }
 
 p {
-    color: #444;
     font-size: 16px !;
     font-weight: 400;
     line-height: 50px;
@@ -242,9 +241,6 @@ button {
     outline-color: #ddd;
 }
 
-
-
-
 .fontbuttonbooking {
     color: black!important;
     font-style: italic;
@@ -273,6 +269,7 @@ button {
     margin-top: 30%;
     font-size: 45px;
 }
+
 .carousel-indicators li {
     width: 36px !important;
     height: 7px !important;
@@ -4639,3 +4636,717 @@ a.back-to-top {
 
 
 /* End style hoony moon */
+
+
+/* start pade concet us */
+
+.imgconcetus {
+    background-image: url(../images/pexels-maldives.jpeg);
+    height: 830px;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    position: relative;
+}
+
+@media (max-width: 1034px) {
+    .imgconcetus {
+        width: 150% !important;
+    }
+}
+
+@media (max-width: 708px) {
+    .imgconcetus {
+        width: 182% !important;
+    }
+}
+
+.opactyconcetus {
+    background-color: #464b6a70;
+    height: 830px;
+}
+
+.concetpragraf {
+    color: white !important;
+    font-family: 'Coda Caption', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    font-size: 86px;
+}
+
+@media (max-width: 1034px) {
+    .concetpragraf {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .concetpragraf {
+        font-size: 48px;
+    }
+}
+
+.iconconnect {
+    color: #ef6603;
+    font-size: 36px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contact-section .box .icon {
+    width: 64px;
+    height: 64px;
+    background: #f15d30;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.contact-section .box .icon span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.contact-section .box {
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    position: relative;
+    /* left: 150px; */
+    top: 5%;
+}
+
+.contact-section .box h3 {
+    font-family: cursive;
+    font-size: 20px;
+    color: tomato;
+    font-weight: 600;
+}
+
+.contact-section .box p {
+    font-family: math;
+    padding-top: 19px;
+}
+
+
+/* end page concet us */
+
+
+/* ______________________________________________- */
+
+
+/* start card offer page conectus_____ */
+
+.placeoffer {
+    margin-left: -35px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    padding-left: 20px;
+}
+
+.marginleft {
+    margin-left: 15px;
+}
+
+.flip-card-inner {
+    left: 165px;
+    top: 200px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    /* padding-top: 47px;
+background-color: #2987b991;
+color: white; */
+    transform: rotateY(180deg);
+}
+
+.opactycardoffer {
+    background: rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 300px;
+}
+
+.textcolorcardoffer {
+    color: white;
+}
+
+.sale-as {
+    color: #ff6b50;
+    font-size: 47px;
+    text-decoration-line: underline;
+}
+
+.oldsallry {
+    font-size: 20px;
+    color: white;
+    text-decoration-line: line-through;
+    font-family: 'Roboto Slab', serif;
+}
+
+.newsallry {
+    color: #fefefe;
+    font-size: 30px;
+    margin-top: -18px;
+}
+
+.buttonconectuscard {
+    color: white;
+    border-color: #ff6b50;
+    background-color: #ff6b50;
+}
+
+.buttonconectuscard:hover {
+    color: white;
+    border-color: #ff6b50;
+    background-color: #ff6b50;
+}
+
+.buttonconectuscard:active {
+    color: white !important;
+    border-color: #ff6b50 !important;
+    background-color: #ff6b50 !important;
+}
+
+.italy {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 31px;
+    padding-top: 16px;
+}
+
+
+/* ____end card offer page conectus_____ */
+
+
+/* ____ startmapandconect_____ */
+
+.mapandconect {
+    margin-top: 179px;
+    margin-left: 65px;
+}
+
+.googlemaps {
+    margin: auto;
+}
+
+
+/* ____ endmapandconect_____ */
+
+
+/* ___ start lastimg___ */
+
+.lastimg {
+    background-image: url(../images/8.jpg);
+    height: 230px;
+    background-size: cover;
+    background-position: 100% 38%;
+    position: relative;
+    top: 30px;
+    left: 15%;
+    width: 70%;
+}
+
+.opactyconcetus1 {
+    background-color: #555d8fa1;
+    height: 230px;
+}
+
+@media (max-width: 1496px) {
+    .textlastimg {
+        font-size: 26px !important;
+        text-align: center;
+        margin-left: -196px !important;
+    }
+    .textlastimg2 {
+        font-size: 17px !important;
+        text-align: center;
+        margin-right: 165px;
+    }
+    .buttonconectuscard1 {
+        font-size: 12px !important;
+        margin-left: 29% !important;
+    }
+}
+
+@media (max-width: 1042px) {
+    .textlastimg {
+        margin-right: 61px;
+        font-size: 15px !important;
+    }
+    .textlastimg2 {
+        font-size: 12px !important;
+        font-weight: 600;
+        width: 100%;
+        margin-left: -43% !important
+    }
+    .buttonconectuscard1 {
+        margin-left: 1% !important;
+        font-size: 8px !important;
+    }
+}
+
+.concetpragraf1 {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 213px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.textlastimg {
+    margin-left: 58px;
+    font-family: 'Coda Caption', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.buttonconectuscard1 {
+    color: white;
+    border-color: #ff6b50;
+    background-color: #ff6b50;
+    margin-left: 321px;
+}
+
+.buttonconectuscard1:hover {
+    color: white;
+    border-color: #ff6b50;
+    background-color: #ff6b50;
+}
+
+.buttonconectuscard1:active {
+    color: white !important;
+    border-color: #ff6b50 !important;
+    background-color: #ff6b50 !important;
+}
+
+.lodonegypt {
+    display: inline-block;
+}
+
+
+/* end lastimg */
+
+
+/* ___ strat continer conectus ___ */
+
+.form-control {
+    position: relative;
+    top: -38px;
+    border: 1px solid #eda000;
+}
+
+.form-group {
+    margin-left: -71px;
+}
+
+.form-control:focus {
+    border-color: white !important;
+    outline: 0;
+    box-shadow: white !important;
+}
+
+.London {
+    font-family: 'Coda Caption';
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.subneedhealp {
+    color: gray;
+    margin-bottom: 14px;
+}
+
+.locationLondon {
+    font-weight: 700;
+}
+
+.needhealp {
+    margin-top: 77px;
+}
+
+.phoneconect {
+    font-weight: 600;
+}
+
+.fullconectus {
+    position: relative;
+    top: 65px;
+}
+
+.freeconect {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    font-size: 42px;
+    position: relative;
+    bottom: 41px;
+}
+
+.boxconect {
+    font-weight: 600;
+}
+
+@media(max-width:1033px) {
+    .boxconect {
+        margin-left: 300px;
+        font-size: smaller;
+    }
+    .mapandconect {
+        margin-left: 300px;
+    }
+    .lastimg {
+        margin-left: 161px;
+    }
+}
+
+@media(max-width:991px) {
+    .fullconectus {
+        margin-left: 40% !important;
+    }
+    .boxconect {
+        margin-left: 33%;
+    }
+    .mapandconect {
+        margin-left: 27%;
+    }
+    .lastimg {
+        margin-left: 27%;
+    }
+}
+
+@media(max-width:708px) {
+    .fullconectus {
+        margin-left: 58% !important;
+    }
+    .boxconect {
+        margin-left: 50%;
+    }
+    .mapandconect {
+        margin-left: 42%;
+    }
+}
+
+@media(max-width:767px) {
+    .needhealp {
+        margin-bottom: 66px;
+        margin-top: 9px;
+    }
+}
+
+@media(max-width:672px) {
+    .needhealp {
+        margin-left: -13%;
+    }
+    .textlastimg {
+        font-size: 15px !important;
+    }
+    .textlastimg2 {
+        width: 98%;
+    }
+    .lastimg {
+        width: 112%;
+    }
+    .mapandconect {
+        width: 113%;
+    }
+}
+
+@media (max-width:992px) {
+    .freeconect {
+        font-size: 20px;
+    }
+    .subneedhealp {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:704) {
+    .subneedhealp {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1034px) {
+    .fullconectus {
+        margin-left: 30%;
+    }
+}
+
+.colorhead {
+    color: #FF6833;
+}
+
+.iconconectus {
+    color: #111111;
+    font-size: 21px;
+    margin-left: 45px;
+    margin-top: 26px;
+}
+
+.iconconectus:hover {
+    color: #FF6833;
+}
+
+.buttonconectus {
+    background-color: #FF6833 !important;
+    border-color: #FF6833 !important;
+}
+
+
+/* ___ end  continer conectus ___ */
+
+
+/* ___ start hoonny moon ___ */
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+
+.carousel-item .col,
+.col-sm,
+.col-md {
+    margin: 8px;
+    height: 321px;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.cartoon1 img {
+    /* background-image: url(../img/married.jpg); */
+    height: 150px;
+    width: 152px;
+    /* left: 53%;
+    top: 259px;
+    position: absolute; */
+    /* z-index: -1; */
+    border-radius: 50%;
+}
+
+.cartoon2 img {
+    height: 150px;
+    width: 152px;
+    /* left: 44%;
+    top: 259px;
+    position: absolute; */
+    /* z-index: -1; */
+    border-radius: 50%;
+}
+
+.cartoon3 img {
+    height: 150px;
+    width: 152px;
+    /* left: 35%;
+    top: 259px;
+    position: absolute; */
+    /* z-index: -1; */
+    border-radius: 50%;
+}
+
+.cartoon4 img {
+    height: 150px;
+    width: 152px;
+    /* left: 62%;
+    top: 259px;
+    position: absolute; */
+    /* z-index: -1; */
+    border-radius: 50%;
+}
+
+
+/* start animation heart honny moon*/
+
+.heart {
+    margin: 0 auto;
+    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png");
+    width: 76px;
+    height: 30px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+    /* position: absolute;
+    left: 708px;
+    top: 141px; */
+}
+
+.heart:hover {
+    background-position: right;
+}
+
+.heart:hover.tooltip:after,
+.heart:hover.tooltip:before {
+    opacity: 1;
+}
+
+.animated-heart {
+    animation-name: moveHeart;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveHeart {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+.container {
+    padding: 42px;
+    text-align: center;
+}
+
+.infinite-heart {
+    animation-iteration-count: infinite;
+}
+
+.texthoonymoon {
+    font-family: 'Lobster', cursive;
+    /* position: absolute;
+    top: 103px;
+    left: 36%; */
+    font-size: 46px;
+}
+
+.totalcircle {
+    /* position: relative;
+    top: -117px;
+    left: -66px; */
+    width: 480px;
+    margin: auto;
+}
+
+.opacityhonemoon {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.texthoonymoon1 {
+    /* position: absolute;
+    top: 357px;
+    left: 323px; */
+    text-align: center;
+    margin: auto;
+    font-family: unset;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animated-text 5s steps(120);
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+}
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+/* START STYLE PADGE FAQ */
+
+.faqpragraf {
+    color: white !important;
+    font-family: 'Coda Caption', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    font-size: 49px;
+}
+
+@media (max-width: 1034px) {
+    .faqpragraf {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .faqpragraf {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 472px) {
+    .faqpragraf {
+        font-size: 28px;
+    }
+}
+
+.wrapper {
+    width: 70%;
+}
+
+@media(max-width:992px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.accordion {
+    width: 71%;
+    margin: auto;
+}
+
+.accordion-button:not(.collapsed) {
+    border-color: #FF7F50 !important;
+    background-color: #ff7f5042 !important;
+    color: black;
+    font-weight: 700;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+    border-color: #FF7F50;
+}
+
+
+/* END STYLE PADGE FAQ */
