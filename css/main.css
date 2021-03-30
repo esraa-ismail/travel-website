@@ -29,9 +29,9 @@ ol {
 h3 {
     padding: 20px 0;
     color: #3F464A;
-    font-size: 34px ;
-    font-weight: 500 ;
-    line-height: 40px ;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
 }
 
 h4 {
@@ -43,7 +43,7 @@ h4 {
 
 p {
     color: #444;
-    font-size: 16px ;
+    font-size: 16px;
     font-weight: 400;
     line-height: 50px;
 }
@@ -250,7 +250,6 @@ button {
     margin-top: 12%;
 }
 
-
 .fontbuttonbooking {
     color: black!important;
     font-style: italic;
@@ -279,6 +278,7 @@ button {
     margin-top: 30%;
     font-size: 45px;
 }
+
 .carousel-indicators li {
     width: 36px !important;
     height: 7px !important;
@@ -490,6 +490,18 @@ button {
 
 .changestylenavmenu {
     margin-top: 25px;
+}
+
+.singletrip-header {
+    margin-left: 400px;
+}
+
+.searchreasult-header {
+    margin-left: 400px;
+}
+
+.singleblogr-header {
+    margin-left: 400px;
 }
 
 .changestylenavmenuaboutus {
@@ -1546,7 +1558,6 @@ button {
 .form-wrap {
     background-color: #fff;
     margin: -1em auto;
-    
 }
 
 .form-wrap .tabs {
@@ -1733,6 +1744,7 @@ button {
 /*================================================
         category  part 
 =================================================*/
+
 .category {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -1779,7 +1791,7 @@ button {
 =================================================*/
 
 .safari {
-    margin-top: 10% ;
+    margin-top: 10%;
     margin-bottom: 10%;
 }
 
@@ -1868,7 +1880,6 @@ button {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     border: 1px solid #3F464A;
-
 }
 
 .safari .side-text button:hover {
@@ -2294,7 +2305,7 @@ button {
 =====================================*/
 
 .testimonial {
-    margin-top: 10% ;
+    margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
 }
@@ -2435,7 +2446,6 @@ button {
     background-color: #fff;
     color: #FF7F50;
     border: 1px solid #fff;
-
 }
 
 .overlaybutt:hover {
@@ -2477,10 +2487,6 @@ button {
     right: 5%;
     top: 10px;
 }
-
-
-
-
 
 
 /* */
@@ -2735,8 +2741,6 @@ a.back-to-top {
 
 /***************************search result paga*******/
 
-
-
 .searchbox {
     padding: 20px;
     border: 1px solid gainsboro;
@@ -2788,7 +2792,7 @@ a.back-to-top {
     margin-top: 5px;
 }
 
-.plog-post_img{
+.plog-post_img {
     overflow: hidden;
     margin-bottom: 1%;
 }
@@ -2838,7 +2842,6 @@ a.back-to-top {
     margin: 10px;
     background-color: #FF7F50;
     border: #FF7F50 1px solid;
-
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -3457,16 +3460,12 @@ a.back-to-top {
 }
 
 .ftco-section .nav-pills {
-   margin-top : 2%;
-
+    margin-top: 2%;
 }
 
 .ftco-section .nav-menu {
     font-size: 15px;
-   
 }
-
-
 
 .ftco-section .nav-item {
     -webkit-transition: all ease 0.5s;
@@ -3480,28 +3479,27 @@ a.back-to-top {
     border-radius: 50%;
     line-height: 40px;
     margin: 1%;
-
 }
+
 .ftco-section .nav-item a {
     color: #000;
 }
-.ftco-section .arrow , .ftco-section .arrow a {
+
+.ftco-section .arrow,
+.ftco-section .arrow a {
     font-size: 20px;
     border: none;
     color: #000;
-
 }
 
-
-
-.ftco-section .nav-item:hover:not(.arrow){
+.ftco-section .nav-item:hover:not(.arrow) {
     background-color: #000;
     -webkit-transform: scale(1.2);
     transform: scale(1.1);
 }
+
 .ftco-section .nav-item:hover:not(.arrow) a {
     color: #fff;
-    
 }
 
 .ftco-no-pb {
@@ -3981,16 +3979,14 @@ a.back-to-top {
     -moz-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
-
-
 }
 
 .bro-btn2:hover {
     background: #fff;
     color: #FF7F50;
     border: 1px solid #ff7f50;
-    
 }
+
 .detail-btn-bottom p {
     font-weight: 600!important;
     padding-left: 20px;
@@ -4249,6 +4245,7 @@ a.back-to-top {
     -o-transition: .5s;
     transition: .5s;
 }
+
 .about-view.packages-btn a {
     color: #fff;
 }
