@@ -2743,9 +2743,8 @@ a.back-to-top {
 
 .searchbox {
     padding: 20px;
-    border: 1px solid gainsboro;
+    border: 2px solid #FF7F50;
     border-radius: 2px;
-    background-color: whitesmoke;
     height: 1000px;
     text-align: center;
 }
@@ -2851,6 +2850,15 @@ a.back-to-top {
     background-color: transparent;
     border: #FF7F50 1px solid;
     color: #FF7F50;
+} 
+.tourslist .single-package-item {
+    padding-bottom: 0 !important;
+}
+
+.tourslist .about-view.packages-btn {
+    width: 100% !important;
+    height: 100% !important;
+    margin-bottom: 5%;
 }
 
 
@@ -4167,7 +4175,7 @@ a.back-to-top {
     padding: 0 25px;
 }
 
-.single-package-item img {
+.packages .single-package-item img {
     width: 100%;
 }
 

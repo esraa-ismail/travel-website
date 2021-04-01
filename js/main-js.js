@@ -115,40 +115,6 @@ if ($('.nav-menu1').length) {
     $(".mobile-nav1, .mobile-nav-toggle1").hide();
 }
 
-// // Mobile Navigation2
-// if ($('nav.nav-menu1').length) {
-//     var $mobile_nav = $('nav.nav-menu1').clone().prop({
-//         class: 'mobile-nav d-lg-none'
-//     });
-//     $('body').append($mobile_nav);
-//     $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
-//     $('body').append('<div class="mobile-nav-overly"></div>');
-
-//     $(document).on('click', '.mobile-nav-toggle', function(e) {
-//         $('body').toggleClass('mobile-nav-active');
-//         $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-//         $('.mobile-nav-overly').toggle();
-//     });
-
-//     $(document).on('click', '.mobile-nav .drop-down > a', function(e) {
-//         e.preventDefault();
-//         $(this).next().slideToggle(300);
-//         $(this).parent().toggleClass('active');
-//     });
-
-//     $(document).click(function(e) {
-//         var container = $(".mobile-nav, .mobile-nav-toggle");
-//         if (!container.is(e.target) && container.has(e.target).length === 0) {
-//             if ($('body').hasClass('mobile-nav-active')) {
-//                 $('body').removeClass('mobile-nav-active');
-//                 $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-//                 $('.mobile-nav-overly').fadeOut();
-//             }
-//         }
-//     });
-// } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
-//     $(".mobile-nav, .mobile-nav-toggle").hide();
-// }
 
 
 // Navigation active state on scroll
@@ -219,38 +185,7 @@ $('.slider-nav').slick({
     focusOnSelect: true
 });
 
-//hony moon
-// $('.honymoon1').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3 ,
-//   dots: true,
-//   speed: 300,
-//   responsive: [
-//     {
-//       breakpoint: 1024,
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 3,
-//         infinite: true,
-//         dots: true
-//       }
-//     },
-//     {
-//       breakpoint: 600,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 2
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1 } 
-//       }
-//      ]
-// });
+
 
 
 //aluxer 
