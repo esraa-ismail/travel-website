@@ -4519,17 +4519,9 @@ History
                 position: relative;
             }
             
-            @media (max-width: 1034px) {
-                .imgconcetus {
-                    width: 150% !important;
-                }
-            }
+           
             
-            @media (max-width: 708px) {
-                .imgconcetus {
-                    width: 182% !important;
-                }
-            }
+           
             
             .opactyconcetus {
                 background-color: #464b6a70;
@@ -4547,7 +4539,7 @@ History
             
             .concetpragraf p {
                 color: rgb(255, 255, 255);
-                font-size: 111%;
+                font-size: 100%;
             }
             
             @media (max-width: 1034px) {
@@ -4843,46 +4835,8 @@ color: white; */
                 font-weight: 600;
             }
             
-            @media(max-width:1033px) {
-                .boxconect {
-                    margin-left: 300px;
-                    font-size: smaller;
-                }
-                .mapandconect {
-                    margin-left: 300px;
-                }
-                .lastimg {
-                    margin-left: 161px;
-                }
-            }
-            
-            @media(max-width:991px) {
-                .fullconectus {
-                    margin-left: 40% !important;
-                }
-                .boxconect {
-                    margin-left: 33%;
-                }
-                .mapandconect {
-                    margin-left: 27%;
-                }
-                .lastimg {
-                    margin-left: 27%;
-                }
-            }
-            
-            @media(max-width:708px) {
-                .fullconectus {
-                    margin-left: 58% !important;
-                }
-                .boxconect {
-                    margin-left: 50%;
-                }
-                .mapandconect {
-                    margin-left: 42%;
-                }
-            }
-            
+          
+
             @media(max-width:767px) {
                 .needhealp {
                     margin-bottom: 66px;
@@ -4891,9 +4845,7 @@ color: white; */
             }
             
             @media(max-width:672px) {
-                .needhealp {
-                    margin-left: -13%;
-                }
+               
                 .textlastimg {
                     font-size: 15px !important;
                 }
@@ -4901,10 +4853,10 @@ color: white; */
                     width: 98%;
                 }
                 .lastimg {
-                    width: 112%;
+                    width: 100%;
                 }
                 .mapandconect {
-                    width: 113%;
+                    width: 100%;
                 }
             }
             
@@ -4923,11 +4875,7 @@ color: white; */
                 }
             }
             
-            @media (max-width: 1034px) {
-                .fullconectus {
-                    margin-left: 30%;
-                }
-            }
+          
             
             .colorhead {
                 color: #FF6833;
@@ -4936,7 +4884,7 @@ color: white; */
             .iconconectus {
                 color: #111111;
                 font-size: 21px;
-                margin-left: 45px;
+               
                 margin-top: 26px;
             }
             
@@ -5028,10 +4976,7 @@ color: white; */
                 }
             }
             
-            .container {
-                /* padding: 42px; */
-                text-align: center;
-            }
+           
             
             .infinite-heart {
                 animation-iteration-count: infinite;
@@ -5079,13 +5024,11 @@ color: white; */
                 font-family: 'Coda Caption', sans-serif;
                 position: absolute;
                 top: 75%;
-                left: 33%;
                 font-size: 49px;
             }
             
             .accordion-button {
                 font-weight: 600;
-                margin-left: 11%;
                 text-transform: capitalize;
                 width: 74%;
             }
