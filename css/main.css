@@ -2028,6 +2028,14 @@ places part Start
             .places .col-md-5.place-col img {
                 height: 820px;
             }
+
+            .places .nav-item  {
+                padding: 1%;
+                margin: 1%;
+            }
+            .places .nav-item a {
+                font-size: large;
+            }
             /*  */
             
             @media (max-width: 981px) {
@@ -2101,6 +2109,9 @@ places part Start
                     margin-left: 37%;
                 }
             }
+
+           
+
             /* ====================================
 placeses part End
 =====================================*/
@@ -3996,7 +4007,7 @@ History
             
             .svg-calLoader {
                 position: relative;
-                left: 40%;
+                left: 45%;
                 top: 151px;
                 width: 230px;
                 height: 230px;
@@ -4037,11 +4048,63 @@ History
                 animation: spinning-globe linear 15s infinite;
                 position: absolute;
                 top: 200px;
-                left: 43%;
+                left: 48%;
                 fill: #FF7F50;
                 stroke: none;
             }
+          
+
+            @media (max-width : 1198px) {
+                .svg-calLoader {
+                   left: 41%;
+                
+                }
+                .svg-globe{
+                    left: 46%;
+                } 
+            }
+
+            @media (max-width : 912px) {
+                .svg-calLoader {
+                   left: 38%;
+                
+                }
+
+                .svg-globe{
+                    left: 44%;
+                }
+            }
+
+            @media (max-width : 767px) {
+                .svg-calLoader {
+                    left: 33%;
+                
+                }
+                .svg-globe{
+                    left: 40%;
+                } 
+            }
+
+            @media (max-width : 542px) {
+                .svg-calLoader {
+                    left: 31%;
+                
+                }
+                .svg-globe{
+                    left: 42%;
+                }
+            }
             
+            @media (max-width : 373px) {
+                .svg-calLoader {
+                    left: 15%;
+                
+                }
+                .svg-globe{
+                    left: 28%;
+                }
+            }
+
             @keyframes spinning-globe {
                 from {
                     transform: rotate(360deg);
@@ -4201,6 +4264,7 @@ History
                     margin: auto;
                     max-width: 40.333333% !important;
                 }
+               
             }
             
             @media (max-width: 991px) {
@@ -5018,12 +5082,17 @@ color: white; */
             }
             /* START STYLE PADGE FAQ */
             
-            .faqpragraf {
+            /* .faqpragraf {
                 color: white !important;
                 font-family: 'Coda Caption', sans-serif;
                 position: absolute;
                 top: 75%;
                 font-size: 49px;
+                margin: 10% auto;
+            } */
+            .accordion {
+                width: 71%;
+                margin: 10% auto;
             }
             
             .accordion-button {
@@ -5062,10 +5131,7 @@ color: white; */
                 .wrapper {
                     width: 100%;
                 }
-                .accordion {
-                    width: 71%;
-                    margin: auto;
-                }
+                
                 .accordion-button:not(.collapsed) {
                     border-color: #FF7F50 !important;
                     background-color: #ff7f5042 !important;

@@ -4385,13 +4385,13 @@ a.back-to-top {
         font-size: 16px !important;
     }
 }
-.nav-menu1>ul>li {
+.nav-menu2>ul>li {
     position: relative;
     white-space: nowrap;
     float: left;
 }
 
-.nav-menu1 a {
+.nav-menu2 a {
     display: block;
     position: relative;
     color: #fff;
